@@ -9,39 +9,19 @@ use Class::Unload;
 
 use VMOMI;
 
-my ($ns, $cl);
+use_ok("VMOMI::ComplexType");
+can_ok("VMOMI::ComplexType", "serialize", "deserialize", "get_class_ancestors", 
+		"get_class_members", "TO_JSON");
+Class::Unload->unload("VMOMI::ComplexType");
 
-$ns = "VMOMI";
+use_ok("VMOMI::SimpleType");
+can_ok("VMOMI::SimpleType", "serialize", "deserialize", "val", "TO_JSON");
+Class::Unload->unload("VMOMI::SimpleType");
 
-$cl = "ComplexType";
-use_ok("$ns::$cl");
-can_ok("$ns::$cl", "serialize");
-can_ok("$ns::$cl", "deserialize");
-can_ok("$ns::$cl", "get_class_ancestors");
-can_ok("$ns::$cl", "get_class_members");
-can_ok("$ns::$cl", "TO_JSON");
-
-Class::Unload->unload("$ns::$cl");
-
-$cl = "SimpleType";
-use_ok("$ns::$cl");
-can_ok("$ns::$cl", "serialize");
-can_ok("$ns::$cl", "deserialize");
-can_ok("$ns::$cl", "val");
-can_ok("$ns::$cl", "TO_JSON");
-
-Class::Unload->unload("$ns::$cl");
-
-$cl = "SoapBase";
-use_ok("$ns::$cl");
-can_ok("$ns::$cl", "agent_string");
-can_ok("$ns::$cl", "service_version");
-can_ok("$ns::$cl", "service_namespace");
-can_ok("$ns::$cl", "soap_call");
-can_ok("$ns::$cl", "soap_node");
-can_ok("$ns::$cl", "soap_fault");
-
-Class::Unload->unload("$ns::$cl");
+use_ok("VMOMI::SoapBase");
+can_ok("VMOMI::SoapBase", "agent_string", "service_version", "service_namespace", 
+		"soap_call", "soap_node", "soap_fault");
+Class::Unload->unload("VMOMI::SoapBase");
 
 
 done_testing;

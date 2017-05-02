@@ -3,12 +3,10 @@
 use strict;
 use warnings;
 
-use lib 'lib';
-
 use VMOMI;
 use Getopt::Long;
 
-my ($host, $user, $pass, $instance, $content, $session, @vms);
+my ($host, $user, $pass, $stub, $instance, $content, $session, @vms);
 
 $user = undef;
 $pass = undef;
@@ -22,8 +20,7 @@ GetOptions(
 
 die "Must specify user and pass parameters" if not (defined $user and defined $pass);
 
-my $stub = new VMOMI::SoapStub(host => $host) || die "Failed to initialize SoapStub";
-
+$stub = new VMOMI::SoapStub(host => $host) || die "Failed to initialize SoapStub";
 $instance = new VMOMI::ServiceInstance(
     $stub, 
     new VMOMI::ManagedObjectReference(
@@ -33,13 +30,13 @@ $instance = new VMOMI::ServiceInstance(
 );
 
 # Login
-$content = $instance->RetrieveServiceContent(_this => $instance);
+$content = $instance->RetrieveServiceContent;
 $session = $content->sessionManager->Login(userName => $user, password => $pass);
 
 
 @vms = VMOMI::find_entities($content, 'VirtualMachine');
 foreach (@vms) {
-    print $_->name . "\n";
+    print $_->name . ", " . $_->config->guestFullName . "\n";
 }
 
 # Logout

@@ -18,6 +18,7 @@ sub AUTOLOAD {
     $type =~ s/.*:://;
     my ($info) = grep { $_->[0] eq $name } $class->get_class_members;
     
+    # TODO: Persist properties to reduce API calls, check for previously fetched properties first
     if (defined $info) {
         my $options = new VMOMI::RetrieveOptions(maxObjects => 1);
         my $pcoll = new VMOMI::ManagedObjectReference(
