@@ -40,7 +40,7 @@ some limitations with the offical VMware Perl SDK.
 - **Reduce memory footprint through [Class::Autouse](https://metacpan.org/pod/Class::Autouse)**
 - **Enable installation through CPAN**
 
-## Finding managed entities
+## Finding ManagedEntities
 
 Managed entities in the VMware vSphere Web Service inventory, e.g. VirtualMachine or HostSystem, can be
 fetched with the utilty function **VMOMI::find\_entities()**:
@@ -61,7 +61,7 @@ fetched with the utilty function **VMOMI::find\_entities()**:
     $content = $instance->RetrieveServiceContent;
     $session = $content->sessionManager->Login(userName => $user, password => $pass);
 
-## ManagedObjectReferences
+## Working with ManagedObjectReferences
 
 The VMware vSphere Web Service API primarily works through ManagedObjectReferences (moref). Most SDKs
 therefore generate "view classes" of the common objects managed through the API, e.g. VirtualMachine,
@@ -87,7 +87,7 @@ with a current, authenticated connection stub:
     );
     print $vm->name . "\n"; # TestVM2
 
-## Performance
+## Performance Considerations
 
 Properties are only retrieved from the vSphere Web Services API on access through AUTOLOAD, and as such
 can impact performance in iterations. The following logic will invoke three API calls to vSphere for each 

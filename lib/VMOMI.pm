@@ -151,7 +151,7 @@ some limitations with the offical VMware Perl SDK.
 
 =back
 
-=head2 Finding managed entities
+=head2 Finding ManagedEntities
 
 Managed entities in the VMware vSphere Web Service inventory, e.g. VirtualMachine or HostSystem, can be
 fetched with the utilty function B<VMOMI::find_entities()>:
@@ -172,7 +172,7 @@ B<$content> should be an authenticated instance of VMOMI::ServiceContent:
     $content = $instance->RetrieveServiceContent;
     $session = $content->sessionManager->Login(userName => $user, password => $pass);
 
-=head2 ManagedObjectReferences
+=head2 Working with ManagedObjectReferences
 
 The VMware vSphere Web Service API primarily works through ManagedObjectReferences (moref). Most SDKs
 therefore generate "view classes" of the common objects managed through the API, e.g. VirtualMachine,
@@ -198,7 +198,7 @@ with a current, authenticated connection stub:
     );
     print $vm->name . "\n"; # TestVM2
 
-=head2 Performance
+=head2 Performance Considerations
 
 Properties are only retrieved from the vSphere Web Services API on access through AUTOLOAD, and as such
 can impact performance in iterations. The following logic will invoke three API calls to vSphere for each 
