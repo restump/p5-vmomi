@@ -1,6 +1,9 @@
 package VMOMI::DatacenterRenamedEvent;
 use parent 'VMOMI::DatacenterEvent';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'DatacenterEvent',
     'Event',

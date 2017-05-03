@@ -1,6 +1,9 @@
 package VMOMI::NetworkRollbackEvent;
 use parent 'VMOMI::Event';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'Event',
     'DynamicData',

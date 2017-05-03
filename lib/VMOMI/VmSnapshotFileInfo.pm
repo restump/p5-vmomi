@@ -1,6 +1,9 @@
 package VMOMI::VmSnapshotFileInfo;
 use parent 'VMOMI::FileInfo';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'FileInfo',
     'DynamicData',

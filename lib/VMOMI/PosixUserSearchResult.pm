@@ -1,6 +1,9 @@
 package VMOMI::PosixUserSearchResult;
 use parent 'VMOMI::UserSearchResult';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'UserSearchResult',
     'DynamicData',

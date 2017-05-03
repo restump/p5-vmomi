@@ -1,6 +1,9 @@
 package VMOMI::FaultToleranceSecondaryConfigInfo;
 use parent 'VMOMI::FaultToleranceConfigInfo';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'FaultToleranceConfigInfo',
     'DynamicData',

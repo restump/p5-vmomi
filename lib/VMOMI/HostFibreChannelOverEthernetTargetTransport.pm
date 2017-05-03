@@ -1,6 +1,9 @@
 package VMOMI::HostFibreChannelOverEthernetTargetTransport;
 use parent 'VMOMI::HostFibreChannelTargetTransport';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'HostFibreChannelTargetTransport',
     'HostTargetTransport',

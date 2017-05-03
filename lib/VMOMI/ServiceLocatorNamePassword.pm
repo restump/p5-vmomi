@@ -1,6 +1,9 @@
 package VMOMI::ServiceLocatorNamePassword;
 use parent 'VMOMI::ServiceLocatorCredential';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'ServiceLocatorCredential',
     'DynamicData',

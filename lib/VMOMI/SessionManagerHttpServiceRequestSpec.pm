@@ -1,6 +1,9 @@
 package VMOMI::SessionManagerHttpServiceRequestSpec;
 use parent 'VMOMI::SessionManagerServiceRequestSpec';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'SessionManagerServiceRequestSpec',
     'DynamicData',

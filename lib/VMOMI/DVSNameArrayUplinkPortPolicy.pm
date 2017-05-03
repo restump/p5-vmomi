@@ -1,6 +1,9 @@
 package VMOMI::DVSNameArrayUplinkPortPolicy;
 use parent 'VMOMI::DVSUplinkPortPolicy';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'DVSUplinkPortPolicy',
     'DynamicData',

@@ -1,6 +1,9 @@
 package VMOMI::PhysicalNicIpHint;
 use parent 'VMOMI::PhysicalNicHint';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'PhysicalNicHint',
     'DynamicData',

@@ -1,6 +1,9 @@
 package VMOMI::HostLocalAuthentication;
 use parent 'VMOMI::HostAuthenticationStore';
 
+use strict;
+use warnings;
+
 our @class_ancestors = (
     'HostAuthenticationStore',
     'ManagedObject',

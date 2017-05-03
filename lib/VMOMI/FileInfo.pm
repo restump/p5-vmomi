@@ -1,6 +1,9 @@
 package VMOMI::FileInfo;
 use parent 'VMOMI::DynamicData';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'DynamicData',
 );

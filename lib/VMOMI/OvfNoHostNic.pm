@@ -1,6 +1,9 @@
 package VMOMI::OvfNoHostNic;
 use parent 'VMOMI::OvfUnsupportedPackage';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'OvfUnsupportedPackage',
     'OvfFault',

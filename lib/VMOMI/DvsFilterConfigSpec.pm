@@ -1,6 +1,9 @@
 package VMOMI::DvsFilterConfigSpec;
 use parent 'VMOMI::DvsFilterConfig';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'DvsFilterConfig',
     'InheritablePolicy',

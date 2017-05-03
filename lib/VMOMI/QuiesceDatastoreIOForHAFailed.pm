@@ -1,6 +1,9 @@
 package VMOMI::QuiesceDatastoreIOForHAFailed;
 use parent 'VMOMI::ResourceInUse';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'ResourceInUse',
     'VimFault',

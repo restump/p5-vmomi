@@ -1,6 +1,9 @@
 package VMOMI::ContainerView;
 use parent 'VMOMI::ManagedObjectView';
 
+use strict;
+use warnings;
+
 our @class_ancestors = (
     'ManagedObjectView',
     'View',

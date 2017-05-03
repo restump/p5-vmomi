@@ -1,6 +1,9 @@
 package VMOMI::DistributedVirtualPortgroup;
 use parent 'VMOMI::Network';
 
+use strict;
+use warnings;
+
 our @class_ancestors = (
     'Network',
     'ManagedEntity',

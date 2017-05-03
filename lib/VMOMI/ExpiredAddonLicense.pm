@@ -1,6 +1,9 @@
 package VMOMI::ExpiredAddonLicense;
 use parent 'VMOMI::ExpiredFeatureLicense';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'ExpiredFeatureLicense',
     'NotEnoughLicenses',

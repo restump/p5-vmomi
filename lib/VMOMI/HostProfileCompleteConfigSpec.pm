@@ -1,6 +1,9 @@
 package VMOMI::HostProfileCompleteConfigSpec;
 use parent 'VMOMI::HostProfileConfigSpec';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'HostProfileConfigSpec',
     'ProfileCreateSpec',

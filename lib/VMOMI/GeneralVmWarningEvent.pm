@@ -1,6 +1,9 @@
 package VMOMI::GeneralVmWarningEvent;
 use parent 'VMOMI::GeneralEvent';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'GeneralEvent',
     'Event',

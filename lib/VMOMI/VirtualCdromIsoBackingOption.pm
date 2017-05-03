@@ -1,6 +1,9 @@
 package VMOMI::VirtualCdromIsoBackingOption;
 use parent 'VMOMI::VirtualDeviceFileBackingOption';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'VirtualDeviceFileBackingOption',
     'VirtualDeviceBackingOption',

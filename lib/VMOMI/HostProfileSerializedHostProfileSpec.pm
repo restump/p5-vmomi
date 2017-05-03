@@ -1,6 +1,9 @@
 package VMOMI::HostProfileSerializedHostProfileSpec;
 use parent 'VMOMI::ProfileSerializedCreateSpec';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'ProfileSerializedCreateSpec',
     'ProfileCreateSpec',

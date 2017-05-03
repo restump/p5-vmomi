@@ -1,6 +1,9 @@
 package VMOMI::VmwareUplinkPortTeamingPolicy;
 use parent 'VMOMI::InheritablePolicy';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'InheritablePolicy',
     'DynamicData',

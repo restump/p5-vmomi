@@ -1,6 +1,9 @@
 package VMOMI::ClusterIoFilterInfo;
 use parent 'VMOMI::IoFilterInfo';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'IoFilterInfo',
     'DynamicData',

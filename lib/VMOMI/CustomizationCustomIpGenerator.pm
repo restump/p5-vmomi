@@ -1,6 +1,9 @@
 package VMOMI::CustomizationCustomIpGenerator;
 use parent 'VMOMI::CustomizationIpGenerator';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'CustomizationIpGenerator',
     'DynamicData',

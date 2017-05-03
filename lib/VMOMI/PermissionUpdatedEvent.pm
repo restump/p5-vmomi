@@ -1,6 +1,9 @@
 package VMOMI::PermissionUpdatedEvent;
 use parent 'VMOMI::PermissionEvent';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'PermissionEvent',
     'AuthorizationEvent',

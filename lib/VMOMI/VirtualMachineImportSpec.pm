@@ -1,6 +1,9 @@
 package VMOMI::VirtualMachineImportSpec;
 use parent 'VMOMI::ImportSpec';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'ImportSpec',
     'DynamicData',

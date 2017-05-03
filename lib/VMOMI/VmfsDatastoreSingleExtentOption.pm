@@ -1,6 +1,9 @@
 package VMOMI::VmfsDatastoreSingleExtentOption;
 use parent 'VMOMI::VmfsDatastoreBaseOption';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'VmfsDatastoreBaseOption',
     'DynamicData',

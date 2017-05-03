@@ -1,6 +1,9 @@
 package VMOMI::HostProfileManager;
 use parent 'VMOMI::ProfileManager';
 
+use strict;
+use warnings;
+
 our @class_ancestors = (
     'ProfileManager',
     'ProfileManager',

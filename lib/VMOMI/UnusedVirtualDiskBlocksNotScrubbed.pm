@@ -1,6 +1,9 @@
 package VMOMI::UnusedVirtualDiskBlocksNotScrubbed;
 use parent 'VMOMI::DeviceBackingNotSupported';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'DeviceBackingNotSupported',
     'DeviceNotSupported',

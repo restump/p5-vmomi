@@ -1,6 +1,9 @@
 package VMOMI::GuestPosixFileAttributes;
 use parent 'VMOMI::GuestFileAttributes';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'GuestFileAttributes',
     'DynamicData',

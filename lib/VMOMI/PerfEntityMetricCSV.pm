@@ -1,6 +1,9 @@
 package VMOMI::PerfEntityMetricCSV;
 use parent 'VMOMI::PerfEntityMetricBase';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'PerfEntityMetricBase',
     'DynamicData',

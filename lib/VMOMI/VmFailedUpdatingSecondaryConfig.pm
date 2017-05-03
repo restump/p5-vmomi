@@ -1,6 +1,9 @@
 package VMOMI::VmFailedUpdatingSecondaryConfig;
 use parent 'VMOMI::VmEvent';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'VmEvent',
     'Event',

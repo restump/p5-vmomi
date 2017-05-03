@@ -1,6 +1,9 @@
 package VMOMI::UserInputRequiredParameterMetadata;
 use parent 'VMOMI::ProfilePolicyOptionMetadata';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'ProfilePolicyOptionMetadata',
     'DynamicData',

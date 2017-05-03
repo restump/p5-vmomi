@@ -1,6 +1,9 @@
 package VMOMI::ProfileCompositePolicyOptionMetadata;
 use parent 'VMOMI::ProfilePolicyOptionMetadata';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'ProfilePolicyOptionMetadata',
     'DynamicData',

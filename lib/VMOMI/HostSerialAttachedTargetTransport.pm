@@ -1,6 +1,9 @@
 package VMOMI::HostSerialAttachedTargetTransport;
 use parent 'VMOMI::HostTargetTransport';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'HostTargetTransport',
     'DynamicData',

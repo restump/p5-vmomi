@@ -1,6 +1,9 @@
 package VMOMI::Alarm;
 use parent 'VMOMI::ExtensibleManagedObject';
 
+use strict;
+use warnings;
+
 our @class_ancestors = (
     'ExtensibleManagedObject',
     'ManagedObject',

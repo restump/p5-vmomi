@@ -1,6 +1,9 @@
 package VMOMI::VsanDiskFault;
 use parent 'VMOMI::VsanFault';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'VsanFault',
     'VimFault',

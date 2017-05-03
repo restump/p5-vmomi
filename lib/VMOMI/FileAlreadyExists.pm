@@ -1,6 +1,9 @@
 package VMOMI::FileAlreadyExists;
 use parent 'VMOMI::FileFault';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'FileFault',
     'VimFault',

@@ -1,6 +1,9 @@
 package VMOMI::ClusterProfileManager;
 use parent 'VMOMI::ProfileManager';
 
+use strict;
+use warnings;
+
 our @class_ancestors = (
     'ProfileManager',
     'ManagedObject',

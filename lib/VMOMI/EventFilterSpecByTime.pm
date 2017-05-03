@@ -1,6 +1,9 @@
 package VMOMI::EventFilterSpecByTime;
 use parent 'VMOMI::DynamicData';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'DynamicData',
 );

@@ -1,6 +1,9 @@
 package VMOMI::StringOption;
 use parent 'VMOMI::OptionType';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'OptionType',
     'DynamicData',

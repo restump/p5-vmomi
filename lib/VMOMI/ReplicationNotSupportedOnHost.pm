@@ -1,6 +1,9 @@
 package VMOMI::ReplicationNotSupportedOnHost;
 use parent 'VMOMI::ReplicationFault';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'ReplicationFault',
     'VimFault',

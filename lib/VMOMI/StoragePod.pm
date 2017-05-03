@@ -1,6 +1,9 @@
 package VMOMI::StoragePod;
 use parent 'VMOMI::Folder';
 
+use strict;
+use warnings;
+
 our @class_ancestors = (
     'Folder',
     'ManagedEntity',

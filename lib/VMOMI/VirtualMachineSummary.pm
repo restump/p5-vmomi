@@ -1,6 +1,9 @@
 package VMOMI::VirtualMachineSummary;
 use parent 'VMOMI::DynamicData';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'DynamicData',
 );

@@ -1,6 +1,9 @@
 package VMOMI::HostVmfsVolume;
 use parent 'VMOMI::HostFileSystemVolume';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'HostFileSystemVolume',
     'DynamicData',

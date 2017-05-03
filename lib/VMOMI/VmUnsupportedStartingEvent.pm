@@ -1,6 +1,9 @@
 package VMOMI::VmUnsupportedStartingEvent;
 use parent 'VMOMI::VmStartingEvent';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'VmStartingEvent',
     'VmEvent',

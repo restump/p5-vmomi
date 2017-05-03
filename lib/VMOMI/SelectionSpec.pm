@@ -1,6 +1,9 @@
 package VMOMI::SelectionSpec;
 use parent 'VMOMI::DynamicData';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'DynamicData',
 );

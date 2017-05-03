@@ -1,6 +1,9 @@
 package VMOMI::NotSupportedHostForVmcp;
 use parent 'VMOMI::NotSupportedHost';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'NotSupportedHost',
     'HostConnectFault',

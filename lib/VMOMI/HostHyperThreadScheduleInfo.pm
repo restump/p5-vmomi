@@ -1,6 +1,9 @@
 package VMOMI::HostHyperThreadScheduleInfo;
 use parent 'VMOMI::DynamicData';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'DynamicData',
 );

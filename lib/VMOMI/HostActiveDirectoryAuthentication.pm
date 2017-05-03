@@ -1,6 +1,9 @@
 package VMOMI::HostActiveDirectoryAuthentication;
 use parent 'VMOMI::HostDirectoryStore';
 
+use strict;
+use warnings;
+
 our @class_ancestors = (
     'HostDirectoryStore',
     'HostAuthenticationStore',

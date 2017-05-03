@@ -1,6 +1,9 @@
 package VMOMI::VirtualHdAudioCard;
 use parent 'VMOMI::VirtualSoundCard';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'VirtualSoundCard',
     'VirtualDevice',

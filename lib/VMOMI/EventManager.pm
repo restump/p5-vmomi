@@ -1,6 +1,9 @@
 package VMOMI::EventManager;
 use parent 'VMOMI::ManagedObject';
 
+use strict;
+use warnings;
+
 our @class_members = (
     ['description', 'EventDescription', 0, 1],
     ['latestEvent', 'Event', 0, 0],

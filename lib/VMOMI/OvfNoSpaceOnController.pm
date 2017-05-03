@@ -1,6 +1,9 @@
 package VMOMI::OvfNoSpaceOnController;
 use parent 'VMOMI::OvfUnsupportedElement';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'OvfUnsupportedElement',
     'OvfUnsupportedPackage',

@@ -1,6 +1,9 @@
 package VMOMI::ClusterComputeResourceSummary;
 use parent 'VMOMI::ComputeResourceSummary';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'ComputeResourceSummary',
     'DynamicData',

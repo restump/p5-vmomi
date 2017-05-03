@@ -1,6 +1,9 @@
 package VMOMI::ClusterAntiAffinityRuleSpec;
 use parent 'VMOMI::ClusterRuleInfo';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'ClusterRuleInfo',
     'DynamicData',

@@ -1,6 +1,9 @@
 package VMOMI::InaccessibleFTMetadataDatastore;
 use parent 'VMOMI::InaccessibleDatastore';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'InaccessibleDatastore',
     'InvalidDatastore',

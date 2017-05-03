@@ -1,6 +1,9 @@
 package VMOMI::DomainNotFound;
 use parent 'VMOMI::ActiveDirectoryFault';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'ActiveDirectoryFault',
     'VimFault',

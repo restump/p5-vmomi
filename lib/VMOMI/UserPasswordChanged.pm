@@ -1,6 +1,9 @@
 package VMOMI::UserPasswordChanged;
 use parent 'VMOMI::HostEvent';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'HostEvent',
     'Event',

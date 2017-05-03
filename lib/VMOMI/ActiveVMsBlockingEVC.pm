@@ -1,6 +1,9 @@
 package VMOMI::ActiveVMsBlockingEVC;
 use parent 'VMOMI::EVCConfigFault';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'EVCConfigFault',
     'VimFault',

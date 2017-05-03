@@ -1,6 +1,9 @@
 package VMOMI::VmAlreadyExistsInDatacenter;
 use parent 'VMOMI::InvalidFolder';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'InvalidFolder',
     'VimFault',

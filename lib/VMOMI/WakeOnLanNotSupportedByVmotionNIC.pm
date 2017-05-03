@@ -1,6 +1,9 @@
 package VMOMI::WakeOnLanNotSupportedByVmotionNIC;
 use parent 'VMOMI::HostPowerOpFailed';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'HostPowerOpFailed',
     'VimFault',

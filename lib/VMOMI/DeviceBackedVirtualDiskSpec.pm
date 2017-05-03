@@ -1,6 +1,9 @@
 package VMOMI::DeviceBackedVirtualDiskSpec;
 use parent 'VMOMI::VirtualDiskSpec';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'VirtualDiskSpec',
     'DynamicData',

@@ -1,6 +1,9 @@
 package VMOMI::OvfUnsupportedAttributeValue;
 use parent 'VMOMI::OvfUnsupportedAttribute';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'OvfUnsupportedAttribute',
     'OvfUnsupportedPackage',

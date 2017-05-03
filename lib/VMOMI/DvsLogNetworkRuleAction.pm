@@ -1,6 +1,9 @@
 package VMOMI::DvsLogNetworkRuleAction;
 use parent 'VMOMI::DvsNetworkRuleAction';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'DvsNetworkRuleAction',
     'DynamicData',

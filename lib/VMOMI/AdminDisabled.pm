@@ -1,6 +1,9 @@
 package VMOMI::AdminDisabled;
 use parent 'VMOMI::HostConfigFault';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'HostConfigFault',
     'VimFault',

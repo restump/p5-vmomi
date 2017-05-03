@@ -1,6 +1,9 @@
 package VMOMI::VsanUpgradeSystemUpgradeHistoryPreflightFail;
 use parent 'VMOMI::VsanUpgradeSystemUpgradeHistoryItem';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'VsanUpgradeSystemUpgradeHistoryItem',
     'DynamicData',

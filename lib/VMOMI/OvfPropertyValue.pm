@@ -1,6 +1,9 @@
 package VMOMI::OvfPropertyValue;
 use parent 'VMOMI::OvfProperty';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'OvfProperty',
     'OvfInvalidPackage',

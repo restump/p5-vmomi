@@ -1,6 +1,9 @@
 package VMOMI::DeviceHotPlugNotSupported;
 use parent 'VMOMI::InvalidDeviceSpec';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'InvalidDeviceSpec',
     'InvalidVmConfig',

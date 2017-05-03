@@ -1,6 +1,9 @@
 package VMOMI::HostSriovConfig;
 use parent 'VMOMI::HostPciPassthruConfig';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'HostPciPassthruConfig',
     'DynamicData',

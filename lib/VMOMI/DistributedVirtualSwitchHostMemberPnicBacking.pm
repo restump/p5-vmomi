@@ -1,6 +1,9 @@
 package VMOMI::DistributedVirtualSwitchHostMemberPnicBacking;
 use parent 'VMOMI::DistributedVirtualSwitchHostMemberBacking';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'DistributedVirtualSwitchHostMemberBacking',
     'DynamicData',

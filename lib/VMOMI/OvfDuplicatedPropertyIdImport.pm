@@ -1,6 +1,9 @@
 package VMOMI::OvfDuplicatedPropertyIdImport;
 use parent 'VMOMI::OvfExport';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'OvfExport',
     'OvfFault',

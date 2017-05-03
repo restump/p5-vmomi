@@ -1,6 +1,9 @@
 package VMOMI::EVCAdmissionFailed;
 use parent 'VMOMI::NotSupportedHostInCluster';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'NotSupportedHostInCluster',
     'NotSupportedHost',

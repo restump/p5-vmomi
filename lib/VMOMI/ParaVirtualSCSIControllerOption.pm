@@ -1,6 +1,9 @@
 package VMOMI::ParaVirtualSCSIControllerOption;
 use parent 'VMOMI::VirtualSCSIControllerOption';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'VirtualSCSIControllerOption',
     'VirtualControllerOption',

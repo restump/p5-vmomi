@@ -1,6 +1,9 @@
 package VMOMI::VmDasBeingResetWithScreenshotEvent;
 use parent 'VMOMI::VmDasBeingResetEvent';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'VmDasBeingResetEvent',
     'VmEvent',

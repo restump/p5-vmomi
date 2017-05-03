@@ -1,6 +1,9 @@
 package VMOMI::ConnectedIso;
 use parent 'VMOMI::OvfExport';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'OvfExport',
     'OvfFault',

@@ -1,6 +1,9 @@
 package VMOMI::IpRouteProfile;
 use parent 'VMOMI::ApplyProfile';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'ApplyProfile',
     'DynamicData',

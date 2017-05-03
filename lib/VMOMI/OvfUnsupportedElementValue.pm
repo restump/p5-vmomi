@@ -1,6 +1,9 @@
 package VMOMI::OvfUnsupportedElementValue;
 use parent 'VMOMI::OvfUnsupportedElement';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'OvfUnsupportedElement',
     'OvfUnsupportedPackage',

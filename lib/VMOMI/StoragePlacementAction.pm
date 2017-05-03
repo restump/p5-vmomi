@@ -1,6 +1,9 @@
 package VMOMI::StoragePlacementAction;
 use parent 'VMOMI::ClusterAction';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'ClusterAction',
     'DynamicData',

@@ -1,6 +1,9 @@
 package VMOMI::InventoryView;
 use parent 'VMOMI::ManagedObjectView';
 
+use strict;
+use warnings;
+
 our @class_ancestors = (
     'ManagedObjectView',
     'View',

@@ -1,6 +1,9 @@
 package VMOMI::HostIpConfigIpV6Address;
 use parent 'VMOMI::DynamicData';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'DynamicData',
 );

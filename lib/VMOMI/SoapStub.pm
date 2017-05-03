@@ -1,6 +1,9 @@
 package VMOMI::SoapStub;
 use parent 'VMOMI::SoapBase';
 
+use strict;
+use warnings;
+
 sub AbdicateDomOwnership {
     my ($self, %args) = @_;
     my $x_args = [ 

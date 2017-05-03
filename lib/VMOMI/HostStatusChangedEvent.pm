@@ -1,6 +1,9 @@
 package VMOMI::HostStatusChangedEvent;
 use parent 'VMOMI::ClusterStatusChangedEvent';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'ClusterStatusChangedEvent',
     'ClusterEvent',

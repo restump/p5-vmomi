@@ -1,6 +1,9 @@
 package VMOMI::VirtualMachineBootOptionsBootableEthernetDevice;
 use parent 'VMOMI::VirtualMachineBootOptionsBootableDevice';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'VirtualMachineBootOptionsBootableDevice',
     'DynamicData',

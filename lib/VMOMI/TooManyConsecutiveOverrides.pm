@@ -1,6 +1,9 @@
 package VMOMI::TooManyConsecutiveOverrides;
 use parent 'VMOMI::VimFault';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'VimFault',
     'MethodFault',

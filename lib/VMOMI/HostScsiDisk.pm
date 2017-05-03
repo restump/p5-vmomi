@@ -1,6 +1,9 @@
 package VMOMI::HostScsiDisk;
 use parent 'VMOMI::ScsiLun';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'ScsiLun',
     'HostDevice',

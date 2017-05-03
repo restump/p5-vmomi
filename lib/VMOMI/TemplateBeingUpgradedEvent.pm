@@ -1,6 +1,9 @@
 package VMOMI::TemplateBeingUpgradedEvent;
 use parent 'VMOMI::TemplateUpgradeEvent';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'TemplateUpgradeEvent',
     'Event',

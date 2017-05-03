@@ -1,6 +1,9 @@
 package VMOMI::VmPowerOnDisabled;
 use parent 'VMOMI::InvalidState';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'InvalidState',
     'VimFault',

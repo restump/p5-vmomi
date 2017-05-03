@@ -1,6 +1,9 @@
 package VMOMI::HostFirewallRulesetRulesetSpec;
 use parent 'VMOMI::DynamicData';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'DynamicData',
 );

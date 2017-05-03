@@ -1,6 +1,9 @@
 package VMOMI::VsanUpgradeSystemAutoClaimEnabledOnHostsIssue;
 use parent 'VMOMI::VsanUpgradeSystemPreflightCheckIssue';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'VsanUpgradeSystemPreflightCheckIssue',
     'DynamicData',

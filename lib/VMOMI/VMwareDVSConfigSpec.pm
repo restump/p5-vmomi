@@ -1,6 +1,9 @@
 package VMOMI::VMwareDVSConfigSpec;
 use parent 'VMOMI::DVSConfigSpec';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'DVSConfigSpec',
     'DynamicData',

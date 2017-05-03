@@ -1,6 +1,9 @@
 package VMOMI::MemoryFileFormatNotSupportedByDatastore;
 use parent 'VMOMI::UnsupportedDatastore';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'UnsupportedDatastore',
     'VmConfigFault',

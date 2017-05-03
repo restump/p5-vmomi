@@ -1,6 +1,9 @@
 package VMOMI::GuestRegistryKeyInvalid;
 use parent 'VMOMI::GuestRegistryKeyFault';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'GuestRegistryKeyFault',
     'GuestRegistryFault',

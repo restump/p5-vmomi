@@ -1,6 +1,9 @@
 package VMOMI::HostBlockAdapterTargetTransport;
 use parent 'VMOMI::HostTargetTransport';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'HostTargetTransport',
     'DynamicData',

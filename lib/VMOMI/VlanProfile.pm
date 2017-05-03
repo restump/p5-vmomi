@@ -1,6 +1,9 @@
 package VMOMI::VlanProfile;
 use parent 'VMOMI::ApplyProfile';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'ApplyProfile',
     'DynamicData',

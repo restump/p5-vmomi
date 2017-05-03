@@ -1,6 +1,9 @@
 package VMOMI::TaskReasonAlarm;
 use parent 'VMOMI::TaskReason';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'TaskReason',
     'DynamicData',

@@ -1,6 +1,9 @@
 package VMOMI::ScheduledTaskDetail;
 use parent 'VMOMI::TypeDescription';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'TypeDescription',
     'Description',

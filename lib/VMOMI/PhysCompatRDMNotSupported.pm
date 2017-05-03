@@ -1,6 +1,9 @@
 package VMOMI::PhysCompatRDMNotSupported;
 use parent 'VMOMI::RDMNotSupported';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'RDMNotSupported',
     'DeviceNotSupported',

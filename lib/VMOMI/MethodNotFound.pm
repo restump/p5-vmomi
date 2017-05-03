@@ -1,6 +1,9 @@
 package VMOMI::MethodNotFound;
 use parent 'VMOMI::InvalidRequest';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'InvalidRequest',
     'RuntimeFault',

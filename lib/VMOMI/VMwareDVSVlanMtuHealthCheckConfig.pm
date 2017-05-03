@@ -1,6 +1,9 @@
 package VMOMI::VMwareDVSVlanMtuHealthCheckConfig;
 use parent 'VMOMI::VMwareDVSHealthCheckConfig';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'VMwareDVSHealthCheckConfig',
     'DVSHealthCheckConfig',

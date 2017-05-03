@@ -1,6 +1,9 @@
 package VMOMI::RuntimeFault;
 use parent 'VMOMI::MethodFault';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'MethodFault',
 );

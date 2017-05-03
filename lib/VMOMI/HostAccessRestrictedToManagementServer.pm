@@ -1,6 +1,9 @@
 package VMOMI::HostAccessRestrictedToManagementServer;
 use parent 'VMOMI::NotSupported';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'NotSupported',
     'RuntimeFault',

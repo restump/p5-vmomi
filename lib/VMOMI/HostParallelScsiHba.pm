@@ -1,6 +1,9 @@
 package VMOMI::HostParallelScsiHba;
 use parent 'VMOMI::HostHostBusAdapter';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'HostHostBusAdapter',
     'DynamicData',

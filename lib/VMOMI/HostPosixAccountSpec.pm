@@ -1,6 +1,9 @@
 package VMOMI::HostPosixAccountSpec;
 use parent 'VMOMI::HostAccountSpec';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'HostAccountSpec',
     'DynamicData',

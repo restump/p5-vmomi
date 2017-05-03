@@ -1,6 +1,9 @@
 package VMOMI::UnconfiguredPropertyValue;
 use parent 'VMOMI::InvalidPropertyValue';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'InvalidPropertyValue',
     'VAppPropertyFault',

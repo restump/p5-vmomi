@@ -1,6 +1,9 @@
 package VMOMI::VirtualMachineDeviceRuntimeInfoVirtualEthernetCardRuntimeState;
 use parent 'VMOMI::VirtualMachineDeviceRuntimeInfoDeviceRuntimeState';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'VirtualMachineDeviceRuntimeInfoDeviceRuntimeState',
     'DynamicData',

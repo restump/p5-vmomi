@@ -1,6 +1,9 @@
 package VMOMI::HostSriovNetworkDevicePoolInfo;
 use parent 'VMOMI::HostSriovDevicePoolInfo';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'HostSriovDevicePoolInfo',
     'DynamicData',

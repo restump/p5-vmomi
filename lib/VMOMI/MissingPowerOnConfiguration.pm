@@ -1,6 +1,9 @@
 package VMOMI::MissingPowerOnConfiguration;
 use parent 'VMOMI::VAppConfigFault';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'VAppConfigFault',
     'VimFault',

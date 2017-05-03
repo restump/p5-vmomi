@@ -1,6 +1,9 @@
 package VMOMI::SeSparseVirtualDiskSpec;
 use parent 'VMOMI::FileBackedVirtualDiskSpec';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'FileBackedVirtualDiskSpec',
     'VirtualDiskSpec',

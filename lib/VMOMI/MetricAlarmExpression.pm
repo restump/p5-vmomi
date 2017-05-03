@@ -1,6 +1,9 @@
 package VMOMI::MetricAlarmExpression;
 use parent 'VMOMI::AlarmExpression';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'AlarmExpression',
     'DynamicData',

@@ -1,6 +1,9 @@
 package VMOMI::VirtualDevicePciBusSlotInfo;
 use parent 'VMOMI::VirtualDeviceBusSlotInfo';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'VirtualDeviceBusSlotInfo',
     'DynamicData',

@@ -1,6 +1,9 @@
 package VMOMI::VirtualMachineCpuIdInfoSpec;
 use parent 'VMOMI::ArrayUpdateSpec';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'ArrayUpdateSpec',
     'DynamicData',

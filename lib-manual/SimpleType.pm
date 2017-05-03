@@ -1,5 +1,8 @@
 package VMOMI::SimpleType;
 
+use strict;
+use warnings;
+
 use Encode qw(decode_utf8 encode_utf8);
 
 sub new {

@@ -1,6 +1,9 @@
 package VMOMI::OnceTaskScheduler;
 use parent 'VMOMI::TaskScheduler';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'TaskScheduler',
     'DynamicData',

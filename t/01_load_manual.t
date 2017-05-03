@@ -7,8 +7,6 @@ use Test::More;
 use File::Find;
 use Class::Unload;
 
-#use VMOMI;
-
 use_ok('VMOMI');
 
 find(\&wanted, 'lib-manual');

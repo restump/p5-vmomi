@@ -1,6 +1,9 @@
 package VMOMI::HostInternetScsiHbaParamValue;
 use parent 'VMOMI::OptionValue';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'OptionValue',
     'DynamicData',

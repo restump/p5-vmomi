@@ -1,4 +1,4 @@
-requires 'perl' => '5.010001';
+requires 'perl' => '5.6.0';
 requires 'URI';
 requires 'Encode';
 requires 'Class::Autouse';
@@ -13,8 +13,11 @@ requires 'Scalar::Util';
 requires 'XML::LibXML';
 requires 'XML::LibXML::Reader';
 
+suggests 'JSON::XS';
+
 on 'test' => sub {
 	requires 'Class::Unload';
 	requires 'File::Find';
 	requires 'Test::More';
+	requires 'Test::Exception';
 }

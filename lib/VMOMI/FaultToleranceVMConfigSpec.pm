@@ -1,6 +1,9 @@
 package VMOMI::FaultToleranceVMConfigSpec;
 use parent 'VMOMI::DynamicData';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'DynamicData',
 );

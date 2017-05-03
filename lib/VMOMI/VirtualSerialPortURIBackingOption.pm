@@ -1,6 +1,9 @@
 package VMOMI::VirtualSerialPortURIBackingOption;
 use parent 'VMOMI::VirtualDeviceURIBackingOption';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'VirtualDeviceURIBackingOption',
     'VirtualDeviceBackingOption',

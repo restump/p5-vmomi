@@ -1,6 +1,9 @@
 package VMOMI::PatchMetadataCorrupted;
 use parent 'VMOMI::PatchMetadataInvalid';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'PatchMetadataInvalid',
     'VimFault',

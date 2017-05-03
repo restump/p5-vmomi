@@ -1,6 +1,9 @@
 package VMOMI::VmfsDatastoreSpec;
 use parent 'VMOMI::DynamicData';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'DynamicData',
 );

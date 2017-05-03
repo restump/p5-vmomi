@@ -1,6 +1,9 @@
 package VMOMI::VmfsAlreadyMounted;
 use parent 'VMOMI::VmfsMountFault';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'VmfsMountFault',
     'HostConfigFault',

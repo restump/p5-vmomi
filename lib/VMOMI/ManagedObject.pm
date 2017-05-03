@@ -1,13 +1,13 @@
 package VMOMI::ManagedObject;
 use parent 'VMOMI::ComplexType';
 
-use constant P5NS => 'VMOMI';
+use strict;
+use warnings;
 
 use Scalar::Util qw(weaken);
 
+our @class_members   = ( );
 our @class_ancestors = ( );
-
-our @class_members = ( );
 
 sub AUTOLOAD {
     my $self = shift;
@@ -15,19 +15,17 @@ sub AUTOLOAD {
         
     return if $name =~ /::DESTROY$/;
     $name =~ s/.*://;
-    
-    # If name is part of the class definition, retrieve the property
-    
-    # Without stub, nothing to do?
+        
     my $class = ref($self);
     my $type = $class;
     $type =~ s/.*:://;
     my ($info) = grep { $_->[0] eq $name } $class->get_class_members;
     
+    # TODO: Persist properties to reduce API calls, check for previously fetched properties first
     if (defined $info) {
         my $options = new VMOMI::RetrieveOptions(maxObjects => 1);
         my $pcoll = new VMOMI::ManagedObjectReference(
-            type => 'PropertyCollector',
+            type  => 'PropertyCollector',
             value => 'propertyCollector'
         );
         
@@ -76,7 +74,7 @@ sub AUTOLOAD {
         return $self->{$name};
     }
     
-    # Try a method invocation against the API
+    # Try a method invocation against the API otherwise
     my %args = @_;
     $args{'_this'} = $self->{'moref'};
     my $method = $self->stub->can($name);
@@ -90,16 +88,15 @@ sub new {
     my ($class, $stub, $moref, %args) = @_;
     my $self = $class->SUPER::new(%args);
     
-    if (ref($stub) ne P5NS . '::SoapStub') {
+    if (ref($stub) ne 'VMOMI::SoapStub') {
         die "Parameter (0) to class '$class' constructor must be VMOMI::SoapStub: ";
     }
-    if (ref($moref) ne P5NS . '::ManagedObjectReference') {
+    if (ref($moref) ne 'VMOMI::ManagedObjectReference') {
         die "Parameter (1) to class '$class' constructor must be VMOMI::ManagedObjectReference";
     } 
     $self->{'stub'}   = $stub;
     $self->{'moref'}  = $moref;
     
-    # Is weaken necessary here?
     weaken $self->{'stub'};
     return bless $self, $class;
 }

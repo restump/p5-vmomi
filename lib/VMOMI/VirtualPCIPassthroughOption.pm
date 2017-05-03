@@ -1,6 +1,9 @@
 package VMOMI::VirtualPCIPassthroughOption;
 use parent 'VMOMI::VirtualDeviceOption';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'VirtualDeviceOption',
     'DynamicData',

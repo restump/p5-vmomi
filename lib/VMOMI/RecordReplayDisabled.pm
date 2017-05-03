@@ -1,6 +1,9 @@
 package VMOMI::RecordReplayDisabled;
 use parent 'VMOMI::VimFault';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'VimFault',
     'MethodFault',

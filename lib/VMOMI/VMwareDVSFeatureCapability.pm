@@ -1,6 +1,9 @@
 package VMOMI::VMwareDVSFeatureCapability;
 use parent 'VMOMI::DVSFeatureCapability';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'DVSFeatureCapability',
     'DynamicData',

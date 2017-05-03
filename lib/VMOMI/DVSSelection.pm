@@ -1,6 +1,9 @@
 package VMOMI::DVSSelection;
 use parent 'VMOMI::SelectionSet';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'SelectionSet',
     'DynamicData',

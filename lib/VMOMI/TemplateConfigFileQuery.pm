@@ -1,6 +1,9 @@
 package VMOMI::TemplateConfigFileQuery;
 use parent 'VMOMI::VmConfigFileQuery';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'VmConfigFileQuery',
     'FileQuery',

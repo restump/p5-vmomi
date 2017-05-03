@@ -1,6 +1,9 @@
 package VMOMI::ClusterProfileConfigSpec;
 use parent 'VMOMI::ClusterProfileCreateSpec';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'ClusterProfileCreateSpec',
     'ProfileCreateSpec',

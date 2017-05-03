@@ -1,6 +1,9 @@
 package VMOMI::ScheduledTaskInfo;
 use parent 'VMOMI::ScheduledTaskSpec';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'ScheduledTaskSpec',
     'DynamicData',

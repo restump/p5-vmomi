@@ -1,6 +1,9 @@
 package VMOMI::OvfConsumerCommunicationError;
 use parent 'VMOMI::OvfConsumerCallbackFault';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'OvfConsumerCallbackFault',
     'OvfFault',

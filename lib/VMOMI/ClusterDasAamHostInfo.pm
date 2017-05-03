@@ -1,6 +1,9 @@
 package VMOMI::ClusterDasAamHostInfo;
 use parent 'VMOMI::ClusterDasHostInfo';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'ClusterDasHostInfo',
     'DynamicData',

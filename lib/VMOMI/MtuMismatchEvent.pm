@@ -1,6 +1,9 @@
 package VMOMI::MtuMismatchEvent;
 use parent 'VMOMI::DvsHealthStatusChangeEvent';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'DvsHealthStatusChangeEvent',
     'HostEvent',

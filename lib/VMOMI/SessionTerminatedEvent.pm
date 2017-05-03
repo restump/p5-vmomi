@@ -1,6 +1,9 @@
 package VMOMI::SessionTerminatedEvent;
 use parent 'VMOMI::SessionEvent';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'SessionEvent',
     'Event',

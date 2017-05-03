@@ -1,6 +1,9 @@
 package VMOMI::GatewayNotReachable;
 use parent 'VMOMI::GatewayConnectFault';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'GatewayConnectFault',
     'HostConnectFault',

@@ -1,6 +1,9 @@
 package VMOMI::CannotAccessVmDisk;
 use parent 'VMOMI::CannotAccessVmDevice';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'CannotAccessVmDevice',
     'CannotAccessVmComponent',

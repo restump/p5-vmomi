@@ -1,6 +1,9 @@
 package VMOMI::VirtualFloppyDeviceBackingInfo;
 use parent 'VMOMI::VirtualDeviceDeviceBackingInfo';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'VirtualDeviceDeviceBackingInfo',
     'VirtualDeviceBackingInfo',

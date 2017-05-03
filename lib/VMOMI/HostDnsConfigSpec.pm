@@ -1,6 +1,9 @@
 package VMOMI::HostDnsConfigSpec;
 use parent 'VMOMI::HostDnsConfig';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'HostDnsConfig',
     'DynamicData',

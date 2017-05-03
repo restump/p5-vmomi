@@ -1,6 +1,9 @@
 package VMOMI::VirtualVmxnet3Vrdma;
 use parent 'VMOMI::VirtualVmxnet3';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'VirtualVmxnet3',
     'VirtualVmxnet',

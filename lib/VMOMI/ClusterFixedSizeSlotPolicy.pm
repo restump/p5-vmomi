@@ -1,6 +1,9 @@
 package VMOMI::ClusterFixedSizeSlotPolicy;
 use parent 'VMOMI::ClusterSlotPolicy';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'ClusterSlotPolicy',
     'DynamicData',

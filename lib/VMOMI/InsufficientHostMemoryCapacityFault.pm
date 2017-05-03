@@ -1,6 +1,9 @@
 package VMOMI::InsufficientHostMemoryCapacityFault;
 use parent 'VMOMI::InsufficientHostCapacityFault';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'InsufficientHostCapacityFault',
     'InsufficientResourcesFault',

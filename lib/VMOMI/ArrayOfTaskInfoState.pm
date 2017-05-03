@@ -1,6 +1,9 @@
 package VMOMI::ArrayOfTaskInfoState;
 use parent 'VMOMI::ComplexType';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( );
 
 our @class_members = ( 

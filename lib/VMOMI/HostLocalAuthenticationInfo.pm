@@ -1,6 +1,9 @@
 package VMOMI::HostLocalAuthenticationInfo;
 use parent 'VMOMI::HostAuthenticationStoreInfo';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'HostAuthenticationStoreInfo',
     'DynamicData',

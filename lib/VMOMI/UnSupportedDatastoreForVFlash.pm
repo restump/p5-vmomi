@@ -1,6 +1,9 @@
 package VMOMI::UnSupportedDatastoreForVFlash;
 use parent 'VMOMI::UnsupportedDatastore';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'UnsupportedDatastore',
     'VmConfigFault',

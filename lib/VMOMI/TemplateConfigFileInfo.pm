@@ -1,6 +1,9 @@
 package VMOMI::TemplateConfigFileInfo;
 use parent 'VMOMI::VmConfigFileInfo';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'VmConfigFileInfo',
     'FileInfo',

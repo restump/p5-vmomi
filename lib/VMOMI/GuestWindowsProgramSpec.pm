@@ -1,6 +1,9 @@
 package VMOMI::GuestWindowsProgramSpec;
 use parent 'VMOMI::GuestProgramSpec';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'GuestProgramSpec',
     'DynamicData',

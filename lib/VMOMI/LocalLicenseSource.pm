@@ -1,6 +1,9 @@
 package VMOMI::LocalLicenseSource;
 use parent 'VMOMI::LicenseSource';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'LicenseSource',
     'DynamicData',

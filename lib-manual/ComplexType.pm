@@ -1,5 +1,8 @@
 package VMOMI::ComplexType;
 
+use strict;
+use warnings;
+
 use constant P5NS => 'VMOMI';
 use Scalar::Util qw(blessed);
 
@@ -60,8 +63,8 @@ sub deserialize {
     }
 
     while ($reader->read) {
-        my ($c_depth, $c_name, $c_ntype, $member_info, $content, $value, $value_type, 
-            $ns_class);
+        my ($c_depth, $c_name, $c_ntype, $c_class, $member_info, $content, $value, $value_type, 
+            $ns_class, @keyvalues);
                 
         $c_name  = $reader->name;
         $c_depth = $reader->depth;
@@ -90,7 +93,7 @@ sub deserialize {
 
         my ($m_name, $m_class, $is_array, $is_mandatory) = @$member_info;
         if (not defined $c_class) {
-            if ($m_class eq 'anyType') {
+            if (defined $m_class and $m_class eq 'anyType') {
                 $c_class = undef;
             } else {
                 $c_class = $m_class;
@@ -107,7 +110,7 @@ sub deserialize {
                 } else {
                     Exception::Deserialize->throw(
                         message => "deserialization error: server returned '$content'" .
-                            " as a boolean for member '$name' in class '$p_class'"
+                            " as a boolean for member '$m_name' in class '$p_class'"
                     );
                 }
             } else {

@@ -1,6 +1,9 @@
 package VMOMI::HostFibreChannelTargetTransport;
 use parent 'VMOMI::HostTargetTransport';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'HostTargetTransport',
     'DynamicData',

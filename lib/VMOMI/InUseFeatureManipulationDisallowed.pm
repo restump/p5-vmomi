@@ -1,6 +1,9 @@
 package VMOMI::InUseFeatureManipulationDisallowed;
 use parent 'VMOMI::NotEnoughLicenses';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'NotEnoughLicenses',
     'RuntimeFault',

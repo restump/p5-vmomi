@@ -1,6 +1,9 @@
 package VMOMI::DrsExitedStandbyModeEvent;
 use parent 'VMOMI::ExitedStandbyModeEvent';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'ExitedStandbyModeEvent',
     'HostEvent',

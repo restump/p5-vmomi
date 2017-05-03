@@ -1,6 +1,9 @@
 package VMOMI::VirtualAHCIControllerOption;
 use parent 'VMOMI::VirtualSATAControllerOption';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'VirtualSATAControllerOption',
     'VirtualControllerOption',

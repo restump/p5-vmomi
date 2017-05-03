@@ -1,6 +1,9 @@
 package VMOMI::IpRange;
 use parent 'VMOMI::IpAddress';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'IpAddress',
     'NegatableExpression',

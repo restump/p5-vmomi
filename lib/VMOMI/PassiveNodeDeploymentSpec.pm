@@ -1,6 +1,9 @@
 package VMOMI::PassiveNodeDeploymentSpec;
 use parent 'VMOMI::NodeDeploymentSpec';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'NodeDeploymentSpec',
     'DynamicData',

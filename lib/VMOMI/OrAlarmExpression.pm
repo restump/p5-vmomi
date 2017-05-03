@@ -1,6 +1,9 @@
 package VMOMI::OrAlarmExpression;
 use parent 'VMOMI::AlarmExpression';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'AlarmExpression',
     'DynamicData',

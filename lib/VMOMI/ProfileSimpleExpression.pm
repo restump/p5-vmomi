@@ -1,6 +1,9 @@
 package VMOMI::ProfileSimpleExpression;
 use parent 'VMOMI::ProfileExpression';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'ProfileExpression',
     'DynamicData',

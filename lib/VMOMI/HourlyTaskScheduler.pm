@@ -1,6 +1,9 @@
 package VMOMI::HourlyTaskScheduler;
 use parent 'VMOMI::RecurrentTaskScheduler';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'RecurrentTaskScheduler',
     'TaskScheduler',

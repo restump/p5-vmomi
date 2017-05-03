@@ -1,6 +1,9 @@
 package VMOMI::VirtualPS2ControllerOption;
 use parent 'VMOMI::VirtualControllerOption';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'VirtualControllerOption',
     'VirtualDeviceOption',

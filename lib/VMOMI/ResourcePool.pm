@@ -1,6 +1,9 @@
 package VMOMI::ResourcePool;
 use parent 'VMOMI::ManagedEntity';
 
+use strict;
+use warnings;
+
 our @class_ancestors = (
     'ManagedEntity',
     'ExtensibleManagedObject',

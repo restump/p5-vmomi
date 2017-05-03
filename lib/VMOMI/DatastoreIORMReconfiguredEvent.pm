@@ -1,6 +1,9 @@
 package VMOMI::DatastoreIORMReconfiguredEvent;
 use parent 'VMOMI::DatastoreEvent';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'DatastoreEvent',
     'Event',

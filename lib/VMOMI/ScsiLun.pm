@@ -1,6 +1,9 @@
 package VMOMI::ScsiLun;
 use parent 'VMOMI::HostDevice';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'HostDevice',
     'DynamicData',

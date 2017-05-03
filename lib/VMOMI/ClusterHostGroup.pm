@@ -1,6 +1,9 @@
 package VMOMI::ClusterHostGroup;
 use parent 'VMOMI::ClusterGroupInfo';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'ClusterGroupInfo',
     'DynamicData',

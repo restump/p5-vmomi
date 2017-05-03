@@ -1,6 +1,9 @@
 package VMOMI::CustomFieldValueChangedEvent;
 use parent 'VMOMI::CustomFieldEvent';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'CustomFieldEvent',
     'Event',

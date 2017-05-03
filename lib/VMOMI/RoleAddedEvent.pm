@@ -1,6 +1,9 @@
 package VMOMI::RoleAddedEvent;
 use parent 'VMOMI::RoleEvent';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'RoleEvent',
     'AuthorizationEvent',

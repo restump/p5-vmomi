@@ -1,6 +1,9 @@
 package VMOMI::DistributedVirtualSwitchManagerHostArrayFilter;
 use parent 'VMOMI::DistributedVirtualSwitchManagerHostDvsFilterSpec';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'DistributedVirtualSwitchManagerHostDvsFilterSpec',
     'DynamicData',

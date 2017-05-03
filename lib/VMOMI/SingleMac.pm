@@ -1,6 +1,9 @@
 package VMOMI::SingleMac;
 use parent 'VMOMI::MacAddress';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'MacAddress',
     'NegatableExpression',

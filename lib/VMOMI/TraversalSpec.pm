@@ -1,6 +1,9 @@
 package VMOMI::TraversalSpec;
 use parent 'VMOMI::SelectionSpec';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'SelectionSpec',
     'DynamicData',

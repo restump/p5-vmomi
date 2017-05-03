@@ -1,6 +1,9 @@
 package VMOMI::NetworkCopyFault;
 use parent 'VMOMI::FileFault';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'FileFault',
     'VimFault',

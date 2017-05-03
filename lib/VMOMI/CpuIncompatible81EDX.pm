@@ -1,6 +1,9 @@
 package VMOMI::CpuIncompatible81EDX;
 use parent 'VMOMI::CpuIncompatible';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'CpuIncompatible',
     'VirtualHardwareCompatibilityIssue',

@@ -1,6 +1,9 @@
 package VMOMI::CustomizationFixedName;
 use parent 'VMOMI::CustomizationName';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'CustomizationName',
     'DynamicData',

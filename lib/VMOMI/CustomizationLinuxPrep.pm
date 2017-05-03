@@ -1,6 +1,9 @@
 package VMOMI::CustomizationLinuxPrep;
 use parent 'VMOMI::CustomizationIdentitySettings';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'CustomizationIdentitySettings',
     'DynamicData',

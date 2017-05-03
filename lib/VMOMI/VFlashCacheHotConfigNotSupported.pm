@@ -1,6 +1,9 @@
 package VMOMI::VFlashCacheHotConfigNotSupported;
 use parent 'VMOMI::VmConfigFault';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'VmConfigFault',
     'VimFault',

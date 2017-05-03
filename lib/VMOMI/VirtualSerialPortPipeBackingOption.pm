@@ -1,6 +1,9 @@
 package VMOMI::VirtualSerialPortPipeBackingOption;
 use parent 'VMOMI::VirtualDevicePipeBackingOption';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'VirtualDevicePipeBackingOption',
     'VirtualDeviceBackingOption',

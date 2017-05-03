@@ -1,6 +1,9 @@
 package VMOMI::OvfUnsupportedDeviceBackingInfo;
 use parent 'VMOMI::OvfSystemFault';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'OvfSystemFault',
     'OvfFault',

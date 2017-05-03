@@ -1,6 +1,9 @@
 package VMOMI::CustomizationUnknownFailure;
 use parent 'VMOMI::CustomizationFailed';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'CustomizationFailed',
     'CustomizationEvent',

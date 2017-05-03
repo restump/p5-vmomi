@@ -1,6 +1,9 @@
 package VMOMI::ThirdPartyLicenseAssignmentFailed;
 use parent 'VMOMI::RuntimeFault';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'RuntimeFault',
     'MethodFault',

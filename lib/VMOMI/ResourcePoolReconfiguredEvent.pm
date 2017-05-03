@@ -1,6 +1,9 @@
 package VMOMI::ResourcePoolReconfiguredEvent;
 use parent 'VMOMI::ResourcePoolEvent';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'ResourcePoolEvent',
     'Event',

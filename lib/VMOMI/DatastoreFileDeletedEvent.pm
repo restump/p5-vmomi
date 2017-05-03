@@ -1,6 +1,9 @@
 package VMOMI::DatastoreFileDeletedEvent;
 use parent 'VMOMI::DatastoreFileEvent';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'DatastoreFileEvent',
     'DatastoreEvent',

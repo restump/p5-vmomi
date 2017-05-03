@@ -1,6 +1,9 @@
 package VMOMI::HostSerialAttachedHba;
 use parent 'VMOMI::HostHostBusAdapter';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'HostHostBusAdapter',
     'DynamicData',

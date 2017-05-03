@@ -1,6 +1,9 @@
 package VMOMI::ProfileDissociatedEvent;
 use parent 'VMOMI::ProfileEvent';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'ProfileEvent',
     'Event',

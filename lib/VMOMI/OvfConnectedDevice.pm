@@ -1,6 +1,9 @@
 package VMOMI::OvfConnectedDevice;
 use parent 'VMOMI::OvfHardwareExport';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'OvfHardwareExport',
     'OvfExport',

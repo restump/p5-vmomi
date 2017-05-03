@@ -1,6 +1,9 @@
 package VMOMI::EVCAdmissionFailedCPUModelForMode;
 use parent 'VMOMI::EVCAdmissionFailed';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'EVCAdmissionFailed',
     'NotSupportedHostInCluster',

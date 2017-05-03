@@ -1,6 +1,9 @@
 package VMOMI::NotAuthenticated;
 use parent 'VMOMI::NoPermission';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'NoPermission',
     'SecurityError',

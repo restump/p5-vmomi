@@ -1,6 +1,9 @@
 package VMOMI::ClusterDrsFaultsFaultsByVirtualDisk;
 use parent 'VMOMI::ClusterDrsFaultsFaultsByVm';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'ClusterDrsFaultsFaultsByVm',
     'DynamicData',

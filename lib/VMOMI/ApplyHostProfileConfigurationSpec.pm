@@ -1,6 +1,9 @@
 package VMOMI::ApplyHostProfileConfigurationSpec;
 use parent 'VMOMI::ProfileExecuteResult';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'ProfileExecuteResult',
     'DynamicData',

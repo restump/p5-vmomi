@@ -1,6 +1,9 @@
 package VMOMI::PatchInstallFailed;
 use parent 'VMOMI::PlatformConfigFault';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'PlatformConfigFault',
     'HostConfigFault',

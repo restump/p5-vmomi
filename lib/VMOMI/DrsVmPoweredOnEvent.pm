@@ -1,6 +1,9 @@
 package VMOMI::DrsVmPoweredOnEvent;
 use parent 'VMOMI::VmPoweredOnEvent';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'VmPoweredOnEvent',
     'VmEvent',

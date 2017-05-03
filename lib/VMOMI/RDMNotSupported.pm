@@ -1,6 +1,9 @@
 package VMOMI::RDMNotSupported;
 use parent 'VMOMI::DeviceNotSupported';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'DeviceNotSupported',
     'VirtualHardwareCompatibilityIssue',

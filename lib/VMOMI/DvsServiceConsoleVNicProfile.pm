@@ -1,6 +1,9 @@
 package VMOMI::DvsServiceConsoleVNicProfile;
 use parent 'VMOMI::DvsVNicProfile';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'DvsVNicProfile',
     'ApplyProfile',

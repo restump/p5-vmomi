@@ -136,6 +136,7 @@ open FILE, ">$dst/SoapStub.pm" or die "failed to open '$dst/SoapStub.pm: $!'";
 
 $stub_definition .= "package $ns" . "::SoapStub;\n";
 $stub_definition .= "use parent '$ns" . "::SoapBase';\n\n";
+$stub_definition .= "use strict;\nuse warnings;\n\n";
 
 foreach ( sort keys %operations ) {
     my ($operation, $name, $xargs, $returnval, $ret_type, $ret_array);
@@ -353,6 +354,7 @@ sub write_file {
 
     $class_definition .= "package $ns::$class_name;\n";
     $class_definition .= "use parent '$ns::$super_name';\n\n";
+    $class_definition .= "use strict;\nuse warnings;\n\n";
     $class_definition .= "1;\n";
 
     print FILE $class_definition;
@@ -426,6 +428,7 @@ sub write_file {
 
     $class_definition .= "package $ns::$class_name;\n";
     $class_definition .= "use parent '$ns::$super_name';\n\n";
+    $class_definition .= "use strict;\nuse warnings;\n\n";
 
     # Bug with OptionDef, present in 5.5 and possibly older versions?  Current VMODL doesn't define DynamicData
     # and will raise runtime errors when interfacing with vSphere prior to 6.0

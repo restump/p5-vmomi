@@ -1,6 +1,9 @@
 package VMOMI::VmBeingClonedNoFolderEvent;
 use parent 'VMOMI::VmCloneEvent';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'VmCloneEvent',
     'VmEvent',

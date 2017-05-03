@@ -1,6 +1,9 @@
 package VMOMI::InvalidNetworkResource;
 use parent 'VMOMI::NasConfigFault';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'NasConfigFault',
     'HostConfigFault',

@@ -1,6 +1,9 @@
 package VMOMI::VMwareDVSTeamingHealthCheckResult;
 use parent 'VMOMI::HostMemberHealthCheckResult';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'HostMemberHealthCheckResult',
     'DynamicData',

@@ -1,6 +1,9 @@
 package VMOMI::ExtendedElementDescription;
 use parent 'VMOMI::ElementDescription';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'ElementDescription',
     'Description',

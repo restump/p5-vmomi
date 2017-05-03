@@ -1,6 +1,9 @@
 package VMOMI::TooManyDevices;
 use parent 'VMOMI::InvalidVmConfig';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'InvalidVmConfig',
     'VmConfigFault',

@@ -1,6 +1,9 @@
 package VMOMI::EntityEventArgument;
 use parent 'VMOMI::EventArgument';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'EventArgument',
     'DynamicData',

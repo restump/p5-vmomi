@@ -1,6 +1,9 @@
 package VMOMI::VirtualMachineWindowsQuiesceSpec;
 use parent 'VMOMI::VirtualMachineGuestQuiesceSpec';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'VirtualMachineGuestQuiesceSpec',
     'DynamicData',

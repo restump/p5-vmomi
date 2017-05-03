@@ -1,6 +1,9 @@
 package VMOMI::DvsTrafficFilterConfigSpec;
 use parent 'VMOMI::DvsTrafficFilterConfig';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'DvsTrafficFilterConfig',
     'DvsFilterConfig',

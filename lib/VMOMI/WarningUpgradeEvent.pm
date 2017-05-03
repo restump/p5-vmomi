@@ -1,6 +1,9 @@
 package VMOMI::WarningUpgradeEvent;
 use parent 'VMOMI::UpgradeEvent';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'UpgradeEvent',
     'Event',

@@ -1,6 +1,9 @@
 package VMOMI::ProfileReferenceHostChangedEvent;
 use parent 'VMOMI::ProfileEvent';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'ProfileEvent',
     'Event',

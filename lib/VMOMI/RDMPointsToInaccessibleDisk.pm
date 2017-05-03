@@ -1,6 +1,9 @@
 package VMOMI::RDMPointsToInaccessibleDisk;
 use parent 'VMOMI::CannotAccessVmDisk';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'CannotAccessVmDisk',
     'CannotAccessVmDevice',

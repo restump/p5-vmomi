@@ -1,6 +1,9 @@
 package VMOMI::VStorageObjectConfigInfo;
 use parent 'VMOMI::BaseConfigInfo';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'BaseConfigInfo',
     'DynamicData',

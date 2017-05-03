@@ -1,6 +1,9 @@
 package VMOMI::MemorySizeNotRecommended;
 use parent 'VMOMI::VirtualHardwareCompatibilityIssue';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'VirtualHardwareCompatibilityIssue',
     'VmConfigFault',

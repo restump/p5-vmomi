@@ -1,6 +1,9 @@
 package VMOMI::CannotAccessVmConfig;
 use parent 'VMOMI::CannotAccessVmComponent';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'CannotAccessVmComponent',
     'VmConfigFault',

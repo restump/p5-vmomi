@@ -1,6 +1,9 @@
 package VMOMI::NotSupportedHost;
 use parent 'VMOMI::HostConnectFault';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'HostConnectFault',
     'VimFault',

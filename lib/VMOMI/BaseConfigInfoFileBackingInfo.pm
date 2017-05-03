@@ -1,6 +1,9 @@
 package VMOMI::BaseConfigInfoFileBackingInfo;
 use parent 'VMOMI::BaseConfigInfoBackingInfo';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'BaseConfigInfoBackingInfo',
     'DynamicData',

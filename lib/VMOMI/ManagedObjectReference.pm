@@ -1,6 +1,9 @@
 package VMOMI::ManagedObjectReference;
 use base 'VMOMI::ComplexType';
 
+use strict;
+use warnings;
+
 our @class_members = (
     ['type',  undef, 0, 1],
     ['value', undef, 0, 1],

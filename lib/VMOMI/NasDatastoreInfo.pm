@@ -1,6 +1,9 @@
 package VMOMI::NasDatastoreInfo;
 use parent 'VMOMI::DatastoreInfo';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'DatastoreInfo',
     'DynamicData',

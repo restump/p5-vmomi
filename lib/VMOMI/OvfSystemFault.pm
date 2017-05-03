@@ -1,6 +1,9 @@
 package VMOMI::OvfSystemFault;
 use parent 'VMOMI::OvfFault';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'OvfFault',
     'VimFault',

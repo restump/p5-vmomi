@@ -1,6 +1,9 @@
 package VMOMI::VMwareDVSConfigInfo;
 use parent 'VMOMI::DVSConfigInfo';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'DVSConfigInfo',
     'DynamicData',

@@ -1,6 +1,9 @@
 package VMOMI::VirtualMachineSriovInfo;
 use parent 'VMOMI::VirtualMachinePciPassthroughInfo';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'VirtualMachinePciPassthroughInfo',
     'VirtualMachineTargetInfo',

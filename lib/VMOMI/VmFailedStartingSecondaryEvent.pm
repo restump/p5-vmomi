@@ -1,6 +1,9 @@
 package VMOMI::VmFailedStartingSecondaryEvent;
 use parent 'VMOMI::VmEvent';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'VmEvent',
     'Event',

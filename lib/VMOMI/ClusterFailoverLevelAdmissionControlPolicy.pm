@@ -1,6 +1,9 @@
 package VMOMI::ClusterFailoverLevelAdmissionControlPolicy;
 use parent 'VMOMI::ClusterDasAdmissionControlPolicy';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'ClusterDasAdmissionControlPolicy',
     'DynamicData',

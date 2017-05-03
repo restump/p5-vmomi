@@ -1,6 +1,9 @@
 package VMOMI::VirtualSATAController;
 use parent 'VMOMI::VirtualController';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'VirtualController',
     'VirtualDevice',

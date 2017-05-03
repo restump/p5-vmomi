@@ -1,6 +1,9 @@
 package VMOMI::SwapDatastoreNotWritableOnHost;
 use parent 'VMOMI::DatastoreNotWritableOnHost';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'DatastoreNotWritableOnHost',
     'InvalidDatastore',

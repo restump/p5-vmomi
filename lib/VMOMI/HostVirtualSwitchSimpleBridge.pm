@@ -1,6 +1,9 @@
 package VMOMI::HostVirtualSwitchSimpleBridge;
 use parent 'VMOMI::HostVirtualSwitchBridge';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'HostVirtualSwitchBridge',
     'DynamicData',

@@ -1,6 +1,9 @@
 package VMOMI::VirtualUSBRemoteClientBackingInfo;
 use parent 'VMOMI::VirtualDeviceRemoteDeviceBackingInfo';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'VirtualDeviceRemoteDeviceBackingInfo',
     'VirtualDeviceBackingInfo',

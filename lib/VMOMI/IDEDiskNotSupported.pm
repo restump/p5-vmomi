@@ -1,6 +1,9 @@
 package VMOMI::IDEDiskNotSupported;
 use parent 'VMOMI::DiskNotSupported';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'DiskNotSupported',
     'VirtualHardwareCompatibilityIssue',

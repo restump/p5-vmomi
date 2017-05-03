@@ -1,6 +1,9 @@
 package VMOMI::GuestAuthNamedSubject;
 use parent 'VMOMI::GuestAuthSubject';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'GuestAuthSubject',
     'DynamicData',

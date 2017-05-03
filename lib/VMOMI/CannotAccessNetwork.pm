@@ -1,6 +1,9 @@
 package VMOMI::CannotAccessNetwork;
 use parent 'VMOMI::CannotAccessVmDevice';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'CannotAccessVmDevice',
     'CannotAccessVmComponent',

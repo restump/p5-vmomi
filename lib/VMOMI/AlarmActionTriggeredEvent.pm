@@ -1,6 +1,9 @@
 package VMOMI::AlarmActionTriggeredEvent;
 use parent 'VMOMI::AlarmEvent';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'AlarmEvent',
     'Event',

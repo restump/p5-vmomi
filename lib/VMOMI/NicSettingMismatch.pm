@@ -1,6 +1,9 @@
 package VMOMI::NicSettingMismatch;
 use parent 'VMOMI::CustomizationFault';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'CustomizationFault',
     'VimFault',

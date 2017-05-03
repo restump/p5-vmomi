@@ -1,6 +1,9 @@
 package VMOMI::StructuredCustomizations;
 use parent 'VMOMI::HostProfilesEntityCustomizations';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'HostProfilesEntityCustomizations',
     'DynamicData',

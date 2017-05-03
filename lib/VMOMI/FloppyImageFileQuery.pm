@@ -1,6 +1,9 @@
 package VMOMI::FloppyImageFileQuery;
 use parent 'VMOMI::FileQuery';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'FileQuery',
     'DynamicData',

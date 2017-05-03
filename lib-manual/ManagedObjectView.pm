@@ -1,6 +1,9 @@
 package VMOMI::ManagedObjectView;
 use parent 'VMOMI::View';
 
+use strict;
+use warnings;
+
 our @class_ancestors = (
     'View',
     'ManagedObject',

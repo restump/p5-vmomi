@@ -199,6 +199,37 @@ with a current, authenticated connection stub:
     );
     print $vm->name . "\n"; # TestVM2
 
+=head2 JSON
+
+Support for L<JSON::XS|https://metacpan.org/pod/JSON::XS> object serialization is available through the 
+TO_JSON method on the SDK classes, which may be of benefit for storing objects or integration with NoSQL
+databases.
+
+    $coder = JSON::XS->new->convert_blessed->pretty;
+    $encoded_json = $coder->encode($session);
+    
+    print $encoded_json;
+    {
+       "lastActiveTime" : "2017-05-03T13:17:03.152908Z",
+       "extensionSession" : 0,
+       "key" : "52956fcc-bab5-ad78-9ca8-8a773192c2d1",
+       "locale" : "en",
+       "ipAddress" : "172.16.1.6",
+       "fullName" : "Administrator vlab.local",
+       "userName" : "VLAB.LOCAL\\Administrator",
+       "loginTime" : "2017-05-03T13:17:03.152908Z",
+       "messageLocale" : "en",
+       "userAgent" : "Perl/VMOMI",
+       "_ancestors" : [
+          "DynamicData"
+       ],
+       "callCount" : "0",
+       "_class" : "UserSession"
+    }
+
+Two additional properties are added to the JSON encoded string, B<_class> and B<_ancestors>.  B<_class> is the
+object's class name and B<_ancestors> provides the class inheritance in descending order.
+
 =head2 Performance Considerations
 
 Properties are only retrieved from the vSphere Web Services API on access through AUTOLOAD, and as such,
@@ -227,12 +258,13 @@ L<VMware vSphere Web Services SDK Documentation|https://www.vmware.com/support/d
 
 L<vSphere SDK for Perl Documentation|https://www.vmware.com/support/developer/viperltoolkit/>
 
-=head1 COPYRIGHT and LICENSE
-
-Copyright (c) 2015 by Reuben M. Stump
+=head1 LICENSE
 
 This code is distributed under the Apache 2 License. The full text of the license can be found in the 
 LICENSE file included with this module.
 
+=head1 COPYRIGHT
+
+Copyright (c) 2015 by Reuben M. Stump
 
 =cut

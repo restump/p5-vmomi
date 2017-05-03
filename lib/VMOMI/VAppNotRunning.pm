@@ -1,6 +1,9 @@
 package VMOMI::VAppNotRunning;
 use parent 'VMOMI::VmConfigFault';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'VmConfigFault',
     'VimFault',

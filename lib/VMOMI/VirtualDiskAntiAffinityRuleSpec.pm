@@ -1,6 +1,9 @@
 package VMOMI::VirtualDiskAntiAffinityRuleSpec;
 use parent 'VMOMI::ClusterRuleInfo';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'ClusterRuleInfo',
     'DynamicData',

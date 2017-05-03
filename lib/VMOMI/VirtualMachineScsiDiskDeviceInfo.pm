@@ -1,6 +1,9 @@
 package VMOMI::VirtualMachineScsiDiskDeviceInfo;
 use parent 'VMOMI::VirtualMachineDiskDeviceInfo';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'VirtualMachineDiskDeviceInfo',
     'VirtualMachineTargetInfo',

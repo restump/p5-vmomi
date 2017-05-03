@@ -1,6 +1,9 @@
 package VMOMI::GuestMultipleMappings;
 use parent 'VMOMI::GuestOperationsFault';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'GuestOperationsFault',
     'VimFault',

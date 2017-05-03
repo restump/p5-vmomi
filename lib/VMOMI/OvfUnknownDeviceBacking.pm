@@ -1,6 +1,9 @@
 package VMOMI::OvfUnknownDeviceBacking;
 use parent 'VMOMI::OvfHardwareExport';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'OvfHardwareExport',
     'OvfExport',

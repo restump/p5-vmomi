@@ -1,6 +1,9 @@
 package VMOMI::CustomizationLinuxOptions;
 use parent 'VMOMI::CustomizationOptions';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'CustomizationOptions',
     'DynamicData',

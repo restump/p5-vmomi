@@ -1,6 +1,9 @@
 package VMOMI::CannotDecryptPasswords;
 use parent 'VMOMI::CustomizationFault';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'CustomizationFault',
     'VimFault',

@@ -1,6 +1,9 @@
 package VMOMI::OvfHostResourceConstraint;
 use parent 'VMOMI::OvfConstraint';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'OvfConstraint',
     'OvfInvalidPackage',

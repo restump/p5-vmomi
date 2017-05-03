@@ -1,6 +1,9 @@
 package VMOMI::VirtualSriovEthernetCardSriovBackingOption;
 use parent 'VMOMI::VirtualDeviceBackingOption';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'VirtualDeviceBackingOption',
     'DynamicData',

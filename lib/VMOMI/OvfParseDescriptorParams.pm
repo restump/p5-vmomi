@@ -1,6 +1,9 @@
 package VMOMI::OvfParseDescriptorParams;
 use parent 'VMOMI::OvfManagerCommonParams';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'OvfManagerCommonParams',
     'DynamicData',

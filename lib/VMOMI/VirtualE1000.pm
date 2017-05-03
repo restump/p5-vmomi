@@ -1,6 +1,9 @@
 package VMOMI::VirtualE1000;
 use parent 'VMOMI::VirtualEthernetCard';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'VirtualEthernetCard',
     'VirtualDevice',

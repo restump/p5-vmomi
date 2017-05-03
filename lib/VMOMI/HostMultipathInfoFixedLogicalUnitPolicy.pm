@@ -1,6 +1,9 @@
 package VMOMI::HostMultipathInfoFixedLogicalUnitPolicy;
 use parent 'VMOMI::HostMultipathInfoLogicalUnitPolicy';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'HostMultipathInfoLogicalUnitPolicy',
     'DynamicData',

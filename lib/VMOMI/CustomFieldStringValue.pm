@@ -1,6 +1,9 @@
 package VMOMI::CustomFieldStringValue;
 use parent 'VMOMI::CustomFieldValue';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'CustomFieldValue',
     'DynamicData',

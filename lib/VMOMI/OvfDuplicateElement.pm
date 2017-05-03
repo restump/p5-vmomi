@@ -1,6 +1,9 @@
 package VMOMI::OvfDuplicateElement;
 use parent 'VMOMI::OvfElement';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'OvfElement',
     'OvfInvalidPackage',

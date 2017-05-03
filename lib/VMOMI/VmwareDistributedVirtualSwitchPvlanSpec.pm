@@ -1,6 +1,9 @@
 package VMOMI::VmwareDistributedVirtualSwitchPvlanSpec;
 use parent 'VMOMI::VmwareDistributedVirtualSwitchVlanSpec';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'VmwareDistributedVirtualSwitchVlanSpec',
     'InheritablePolicy',

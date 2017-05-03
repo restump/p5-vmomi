@@ -1,6 +1,9 @@
 package VMOMI::BaseConfigInfoDiskFileBackingInfo;
 use parent 'VMOMI::BaseConfigInfoFileBackingInfo';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'BaseConfigInfoFileBackingInfo',
     'BaseConfigInfoBackingInfo',

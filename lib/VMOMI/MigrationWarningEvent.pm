@@ -1,6 +1,9 @@
 package VMOMI::MigrationWarningEvent;
 use parent 'VMOMI::MigrationEvent';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'MigrationEvent',
     'VmEvent',

@@ -1,6 +1,9 @@
 package VMOMI::HostVStorageObjectManager;
 use parent 'VMOMI::VStorageObjectManagerBase';
 
+use strict;
+use warnings;
+
 our @class_ancestors = (
 	'ManagedObject',
     'VStorageObjectManagerBase',

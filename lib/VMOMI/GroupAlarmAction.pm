@@ -1,6 +1,9 @@
 package VMOMI::GroupAlarmAction;
 use parent 'VMOMI::AlarmAction';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'AlarmAction',
     'DynamicData',

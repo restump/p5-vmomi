@@ -1,6 +1,9 @@
 package VMOMI::ToolsImageSignatureCheckFailed;
 use parent 'VMOMI::VmToolsUpgradeFault';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'VmToolsUpgradeFault',
     'VimFault',

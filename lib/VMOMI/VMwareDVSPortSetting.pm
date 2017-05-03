@@ -1,6 +1,9 @@
 package VMOMI::VMwareDVSPortSetting;
 use parent 'VMOMI::DVPortSetting';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'DVPortSetting',
     'DynamicData',

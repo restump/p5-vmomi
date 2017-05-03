@@ -1,6 +1,9 @@
 package VMOMI::DvsHostWentOutOfSyncEvent;
 use parent 'VMOMI::DvsEvent';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'DvsEvent',
     'Event',

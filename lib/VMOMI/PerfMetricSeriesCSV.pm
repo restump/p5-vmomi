@@ -1,6 +1,9 @@
 package VMOMI::PerfMetricSeriesCSV;
 use parent 'VMOMI::PerfMetricSeries';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'PerfMetricSeries',
     'DynamicData',

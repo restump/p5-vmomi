@@ -1,6 +1,9 @@
 package VMOMI::ClusterOvercommittedEvent;
 use parent 'VMOMI::ClusterEvent';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'ClusterEvent',
     'Event',

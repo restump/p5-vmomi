@@ -1,6 +1,9 @@
 package VMOMI::HostDatastoreExistsConnectInfo;
 use parent 'VMOMI::HostDatastoreConnectInfo';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'HostDatastoreConnectInfo',
     'DynamicData',

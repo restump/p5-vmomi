@@ -1,6 +1,9 @@
 package VMOMI::ExpiredFeatureLicense;
 use parent 'VMOMI::NotEnoughLicenses';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'NotEnoughLicenses',
     'RuntimeFault',

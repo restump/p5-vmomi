@@ -1,6 +1,9 @@
 package VMOMI::ReplicationDiskConfigFault;
 use parent 'VMOMI::ReplicationConfigFault';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'ReplicationConfigFault',
     'ReplicationFault',

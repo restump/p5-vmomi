@@ -1,6 +1,9 @@
 package VMOMI::ScheduledTaskStartedEvent;
 use parent 'VMOMI::ScheduledTaskEvent';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'ScheduledTaskEvent',
     'Event',

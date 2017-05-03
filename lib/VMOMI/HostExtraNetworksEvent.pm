@@ -1,6 +1,9 @@
 package VMOMI::HostExtraNetworksEvent;
 use parent 'VMOMI::HostDasEvent';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'HostDasEvent',
     'HostEvent',

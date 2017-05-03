@@ -1,6 +1,9 @@
 package VMOMI::SSPIAuthentication;
 use parent 'VMOMI::GuestAuthentication';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'GuestAuthentication',
     'DynamicData',

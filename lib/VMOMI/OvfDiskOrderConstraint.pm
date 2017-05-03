@@ -1,6 +1,9 @@
 package VMOMI::OvfDiskOrderConstraint;
 use parent 'VMOMI::OvfConstraint';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'OvfConstraint',
     'OvfInvalidPackage',

@@ -1,6 +1,9 @@
 package VMOMI::ClusterComputeResource;
 use parent 'VMOMI::ComputeResource';
 
+use strict;
+use warnings;
+
 our @class_ancestors = (
     'ComputeResource',
     'ManagedEntity',

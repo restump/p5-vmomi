@@ -1,6 +1,9 @@
 package VMOMI::VslmCloneSpec;
 use parent 'VMOMI::VslmMigrateSpec';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'VslmMigrateSpec',
     'DynamicData',

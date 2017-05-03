@@ -1,6 +1,9 @@
 package VMOMI::DrsVmMigratedEvent;
 use parent 'VMOMI::VmMigratedEvent';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'VmMigratedEvent',
     'VmEvent',

@@ -1,6 +1,9 @@
 package VMOMI::VirtualEthernetCardLegacyNetworkBackingOption;
 use parent 'VMOMI::VirtualDeviceDeviceBackingOption';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'VirtualDeviceDeviceBackingOption',
     'VirtualDeviceBackingOption',

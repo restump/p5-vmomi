@@ -1,6 +1,9 @@
 package VMOMI::VslmCreateSpecDiskFileBackingSpec;
 use parent 'VMOMI::VslmCreateSpecBackingSpec';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'VslmCreateSpecBackingSpec',
     'DynamicData',

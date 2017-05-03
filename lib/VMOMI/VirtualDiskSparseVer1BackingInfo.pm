@@ -1,6 +1,9 @@
 package VMOMI::VirtualDiskSparseVer1BackingInfo;
 use parent 'VMOMI::VirtualDeviceFileBackingInfo';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'VirtualDeviceFileBackingInfo',
     'VirtualDeviceBackingInfo',

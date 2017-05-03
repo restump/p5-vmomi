@@ -1,6 +1,9 @@
 package VMOMI::DvsSystemTrafficNetworkRuleQualifier;
 use parent 'VMOMI::DvsNetworkRuleQualifier';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'DvsNetworkRuleQualifier',
     'DynamicData',

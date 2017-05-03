@@ -1,6 +1,9 @@
 package VMOMI::InsufficientStandbyMemoryResource;
 use parent 'VMOMI::InsufficientStandbyResource';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'InsufficientStandbyResource',
     'InsufficientResourcesFault',

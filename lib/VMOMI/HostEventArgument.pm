@@ -1,6 +1,9 @@
 package VMOMI::HostEventArgument;
 use parent 'VMOMI::EntityEventArgument';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'EntityEventArgument',
     'EventArgument',

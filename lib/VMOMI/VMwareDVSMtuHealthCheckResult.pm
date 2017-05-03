@@ -1,6 +1,9 @@
 package VMOMI::VMwareDVSMtuHealthCheckResult;
 use parent 'VMOMI::HostMemberUplinkHealthCheckResult';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'HostMemberUplinkHealthCheckResult',
     'HostMemberHealthCheckResult',

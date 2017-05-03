@@ -1,6 +1,9 @@
 package VMOMI::VirtualPCIPassthroughVmiopBackingOption;
 use parent 'VMOMI::VirtualPCIPassthroughPluginBackingOption';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'VirtualPCIPassthroughPluginBackingOption',
     'VirtualDeviceBackingOption',

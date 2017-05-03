@@ -1,6 +1,9 @@
 package VMOMI::VsanClusterUuidMismatch;
 use parent 'VMOMI::CannotMoveVsanEnabledHost';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'CannotMoveVsanEnabledHost',
     'VsanFault',

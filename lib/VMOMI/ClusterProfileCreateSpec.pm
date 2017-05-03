@@ -1,6 +1,9 @@
 package VMOMI::ClusterProfileCreateSpec;
 use parent 'VMOMI::ProfileCreateSpec';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'ProfileCreateSpec',
     'DynamicData',

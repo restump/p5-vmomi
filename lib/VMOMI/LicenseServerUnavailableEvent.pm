@@ -1,6 +1,9 @@
 package VMOMI::LicenseServerUnavailableEvent;
 use parent 'VMOMI::LicenseEvent';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'LicenseEvent',
     'Event',

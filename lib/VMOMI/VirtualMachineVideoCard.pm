@@ -1,6 +1,9 @@
 package VMOMI::VirtualMachineVideoCard;
 use parent 'VMOMI::VirtualDevice';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'VirtualDevice',
     'DynamicData',

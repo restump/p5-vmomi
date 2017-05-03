@@ -1,6 +1,9 @@
 package VMOMI::MethodAction;
 use parent 'VMOMI::Action';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'Action',
     'DynamicData',

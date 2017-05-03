@@ -1,6 +1,9 @@
 package VMOMI::VirtualVideoCardOption;
 use parent 'VMOMI::VirtualDeviceOption';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'VirtualDeviceOption',
     'DynamicData',

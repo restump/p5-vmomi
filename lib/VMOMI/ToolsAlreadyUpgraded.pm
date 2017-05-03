@@ -1,6 +1,9 @@
 package VMOMI::ToolsAlreadyUpgraded;
 use parent 'VMOMI::VmToolsUpgradeFault';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'VmToolsUpgradeFault',
     'VimFault',

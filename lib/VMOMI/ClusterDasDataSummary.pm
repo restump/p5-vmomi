@@ -1,6 +1,9 @@
 package VMOMI::ClusterDasDataSummary;
 use parent 'VMOMI::ClusterDasData';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'ClusterDasData',
     'DynamicData',

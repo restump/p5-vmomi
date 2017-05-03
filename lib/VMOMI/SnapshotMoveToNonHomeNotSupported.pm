@@ -1,6 +1,9 @@
 package VMOMI::SnapshotMoveToNonHomeNotSupported;
 use parent 'VMOMI::SnapshotCopyNotSupported';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'SnapshotCopyNotSupported',
     'MigrationFault',

@@ -1,6 +1,9 @@
 package VMOMI::GuestProcessManager;
 use parent 'VMOMI::ManagedObject';
 
+use strict;
+use warnings;
+
 our @class_ancestors = (
     'ManagedObject',
 );

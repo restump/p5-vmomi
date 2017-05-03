@@ -1,6 +1,9 @@
 package VMOMI::TaskHistoryCollector;
 use parent 'VMOMI::HistoryCollector';
 
+use strict;
+use warnings;
+
 our @class_ancestors = (
     'HistoryCollector',
     'ManagedObject',

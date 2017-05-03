@@ -1,6 +1,9 @@
 package VMOMI::EventHistoryCollector;
 use parent 'VMOMI::HistoryCollector';
 
+use strict;
+use warnings;
+
 our @class_members = (
     ['latestPage', 'Event', 1, 0],
 );

@@ -1,6 +1,9 @@
 package VMOMI::HostTpmDigestInfo;
 use parent 'VMOMI::HostDigestInfo';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'HostDigestInfo',
     'DynamicData',

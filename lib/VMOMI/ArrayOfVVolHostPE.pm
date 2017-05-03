@@ -1,6 +1,9 @@
 package VMOMI::ArrayOfVVolHostPE;
 use parent 'VMOMI::ComplexType';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( );
 
 our @class_members = ( 

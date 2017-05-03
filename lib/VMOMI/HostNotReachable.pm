@@ -1,6 +1,9 @@
 package VMOMI::HostNotReachable;
 use parent 'VMOMI::HostCommunication';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'HostCommunication',
     'RuntimeFault',

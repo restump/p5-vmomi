@@ -1,6 +1,9 @@
 package VMOMI::TooManySnapshotLevels;
 use parent 'VMOMI::SnapshotFault';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'SnapshotFault',
     'VimFault',

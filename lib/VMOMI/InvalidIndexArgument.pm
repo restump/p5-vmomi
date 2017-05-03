@@ -1,6 +1,9 @@
 package VMOMI::InvalidIndexArgument;
 use parent 'VMOMI::InvalidArgument';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'InvalidArgument',
     'RuntimeFault',

@@ -1,6 +1,9 @@
 package VMOMI::ReplicationVmInProgressFault;
 use parent 'VMOMI::ReplicationVmFault';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'ReplicationVmFault',
     'ReplicationFault',

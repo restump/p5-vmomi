@@ -1,6 +1,9 @@
 package VMOMI::GatewayToHostAuthFault;
 use parent 'VMOMI::GatewayToHostConnectFault';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'GatewayToHostConnectFault',
     'GatewayConnectFault',

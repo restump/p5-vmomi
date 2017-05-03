@@ -1,6 +1,9 @@
 package VMOMI::HostAdminDisableEvent;
 use parent 'VMOMI::HostEvent';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'HostEvent',
     'Event',

@@ -1,6 +1,9 @@
 package VMOMI::OpaqueNetworkTargetInfo;
 use parent 'VMOMI::VirtualMachineTargetInfo';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'VirtualMachineTargetInfo',
     'DynamicData',

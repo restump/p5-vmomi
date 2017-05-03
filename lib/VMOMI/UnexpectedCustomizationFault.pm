@@ -1,6 +1,9 @@
 package VMOMI::UnexpectedCustomizationFault;
 use parent 'VMOMI::CustomizationFault';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'CustomizationFault',
     'VimFault',

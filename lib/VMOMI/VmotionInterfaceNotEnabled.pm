@@ -1,6 +1,9 @@
 package VMOMI::VmotionInterfaceNotEnabled;
 use parent 'VMOMI::HostPowerOpFailed';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'HostPowerOpFailed',
     'VimFault',

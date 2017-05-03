@@ -1,6 +1,9 @@
 package VMOMI::CustomizationVirtualMachineName;
 use parent 'VMOMI::CustomizationName';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'CustomizationName',
     'DynamicData',

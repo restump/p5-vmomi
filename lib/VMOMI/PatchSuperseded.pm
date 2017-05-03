@@ -1,6 +1,9 @@
 package VMOMI::PatchSuperseded;
 use parent 'VMOMI::PatchNotApplicable';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'PatchNotApplicable',
     'VimFault',

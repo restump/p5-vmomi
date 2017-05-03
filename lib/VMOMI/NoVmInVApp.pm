@@ -1,6 +1,9 @@
 package VMOMI::NoVmInVApp;
 use parent 'VMOMI::VAppConfigFault';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'VAppConfigFault',
     'VimFault',

@@ -1,6 +1,9 @@
 package VMOMI::VMOnConflictDVPort;
 use parent 'VMOMI::CannotAccessNetwork';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'CannotAccessNetwork',
     'CannotAccessVmDevice',

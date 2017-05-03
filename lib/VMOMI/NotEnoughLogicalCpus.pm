@@ -1,6 +1,9 @@
 package VMOMI::NotEnoughLogicalCpus;
 use parent 'VMOMI::NotEnoughCpus';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'NotEnoughCpus',
     'VirtualHardwareCompatibilityIssue',

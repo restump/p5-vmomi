@@ -1,6 +1,9 @@
 package VMOMI::VirtualUSBRemoteClientBackingOption;
 use parent 'VMOMI::VirtualDeviceRemoteDeviceBackingOption';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'VirtualDeviceRemoteDeviceBackingOption',
     'VirtualDeviceBackingOption',

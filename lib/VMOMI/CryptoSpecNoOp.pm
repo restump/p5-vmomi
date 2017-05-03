@@ -1,6 +1,9 @@
 package VMOMI::CryptoSpecNoOp;
 use parent 'VMOMI::CryptoSpec';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'CryptoSpec',
     'DynamicData',

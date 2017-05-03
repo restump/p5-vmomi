@@ -1,6 +1,9 @@
 package VMOMI::HostSystemSwapConfigurationDisabledOption;
 use parent 'VMOMI::HostSystemSwapConfigurationSystemSwapOption';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'HostSystemSwapConfigurationSystemSwapOption',
     'DynamicData',

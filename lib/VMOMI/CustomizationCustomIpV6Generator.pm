@@ -1,6 +1,9 @@
 package VMOMI::CustomizationCustomIpV6Generator;
 use parent 'VMOMI::CustomizationIpV6Generator';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'CustomizationIpV6Generator',
     'DynamicData',

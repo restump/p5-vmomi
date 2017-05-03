@@ -1,6 +1,9 @@
 package VMOMI::VirtualDiskPartitionedRawDiskVer2BackingInfo;
 use parent 'VMOMI::VirtualDiskRawDiskVer2BackingInfo';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'VirtualDiskRawDiskVer2BackingInfo',
     'VirtualDeviceDeviceBackingInfo',

@@ -1,6 +1,9 @@
 package VMOMI::FullStorageVMotionNotSupported;
 use parent 'VMOMI::MigrationFeatureNotSupported';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'MigrationFeatureNotSupported',
     'MigrationFault',

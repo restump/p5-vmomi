@@ -1,6 +1,9 @@
 package VMOMI::VsanUpgradeSystemV2ObjectsPresentDuringDowngradeIssue;
 use parent 'VMOMI::VsanUpgradeSystemPreflightCheckIssue';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'VsanUpgradeSystemPreflightCheckIssue',
     'DynamicData',

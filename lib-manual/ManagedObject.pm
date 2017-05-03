@@ -1,6 +1,9 @@
 package VMOMI::ManagedObject;
 use parent 'VMOMI::ComplexType';
 
+use strict;
+use warnings;
+
 use Scalar::Util qw(weaken);
 
 our @class_members   = ( );

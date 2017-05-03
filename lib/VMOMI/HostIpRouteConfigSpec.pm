@@ -1,6 +1,9 @@
 package VMOMI::HostIpRouteConfigSpec;
 use parent 'VMOMI::HostIpRouteConfig';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'HostIpRouteConfig',
     'DynamicData',

@@ -1,6 +1,9 @@
 package VMOMI::CryptoSpecRegister;
 use parent 'VMOMI::CryptoSpecNoOp';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'CryptoSpecNoOp',
     'CryptoSpec',

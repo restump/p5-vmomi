@@ -1,6 +1,9 @@
 package VMOMI::VMwareDVSPortgroupPolicy;
 use parent 'VMOMI::DVPortgroupPolicy';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'DVPortgroupPolicy',
     'DynamicData',

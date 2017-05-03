@@ -1,6 +1,9 @@
 package VMOMI::CustomizationStartedEvent;
 use parent 'VMOMI::CustomizationEvent';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'CustomizationEvent',
     'VmEvent',

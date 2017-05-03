@@ -1,6 +1,9 @@
 package VMOMI::RestrictedVersion;
 use parent 'VMOMI::SecurityError';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'SecurityError',
     'RuntimeFault',

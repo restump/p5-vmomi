@@ -1,6 +1,9 @@
 package VMOMI::VmShutdownOnIsolationEvent;
 use parent 'VMOMI::VmPoweredOffEvent';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'VmPoweredOffEvent',
     'VmEvent',

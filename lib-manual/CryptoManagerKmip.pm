@@ -1,6 +1,9 @@
 package VMOMI::CryptoManagerKmip;
 use parent 'VMOMI::CryptoManager';
 
+use strict;
+use warnings;
+
 our @class_ancestors = (
     'ManagedObject',
     'CryptoManager',

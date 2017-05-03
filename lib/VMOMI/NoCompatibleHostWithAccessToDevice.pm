@@ -1,6 +1,9 @@
 package VMOMI::NoCompatibleHostWithAccessToDevice;
 use parent 'VMOMI::NoCompatibleHost';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'NoCompatibleHost',
     'VimFault',

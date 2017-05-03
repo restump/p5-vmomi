@@ -1,6 +1,9 @@
 package VMOMI::VirtualMachineDefinedProfileSpec;
 use parent 'VMOMI::VirtualMachineProfileSpec';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'VirtualMachineProfileSpec',
     'DynamicData',

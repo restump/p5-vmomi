@@ -1,6 +1,9 @@
 package VMOMI::VirtualAppSummary;
 use parent 'VMOMI::ResourcePoolSummary';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'ResourcePoolSummary',
     'DynamicData',

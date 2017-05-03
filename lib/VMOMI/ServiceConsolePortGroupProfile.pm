@@ -1,6 +1,9 @@
 package VMOMI::ServiceConsolePortGroupProfile;
 use parent 'VMOMI::PortGroupProfile';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'PortGroupProfile',
     'ApplyProfile',

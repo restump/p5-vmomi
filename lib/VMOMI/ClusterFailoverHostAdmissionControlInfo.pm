@@ -1,6 +1,9 @@
 package VMOMI::ClusterFailoverHostAdmissionControlInfo;
 use parent 'VMOMI::ClusterDasAdmissionControlInfo';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'ClusterDasAdmissionControlInfo',
     'DynamicData',

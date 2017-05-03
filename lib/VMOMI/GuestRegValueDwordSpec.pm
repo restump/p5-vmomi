@@ -1,6 +1,9 @@
 package VMOMI::GuestRegValueDwordSpec;
 use parent 'VMOMI::GuestRegValueDataSpec';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'GuestRegValueDataSpec',
     'DynamicData',

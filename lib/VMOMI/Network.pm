@@ -1,6 +1,9 @@
 package VMOMI::Network;
 use parent 'VMOMI::ManagedEntity';
 
+use strict;
+use warnings;
+
 our @class_ancestors = (
     'ManagedEntity',
     'ExtensibleManagedObject',
@@ -10,7 +13,7 @@ our @class_ancestors = (
 our @class_members = ( 
     ['host', 'ManagedObjectReference', 1, 0],
     ['name', undef, 0, 1],
-    ['summary', NetworkSummary, 0, 1],
+    ['summary', 'NetworkSummary', 0, 1],
     ['vm', 'ManagedObjectReference', 1, 0],
 );
 

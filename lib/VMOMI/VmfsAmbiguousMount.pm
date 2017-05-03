@@ -1,6 +1,9 @@
 package VMOMI::VmfsAmbiguousMount;
 use parent 'VMOMI::VmfsMountFault';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'VmfsMountFault',
     'HostConfigFault',

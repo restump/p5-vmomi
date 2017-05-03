@@ -1,6 +1,9 @@
 package VMOMI::OvfMissingElementNormalBoundary;
 use parent 'VMOMI::OvfMissingElement';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'OvfMissingElement',
     'OvfElement',

@@ -1,6 +1,9 @@
 package VMOMI::VAppConfigInfo;
 use parent 'VMOMI::VmConfigInfo';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'VmConfigInfo',
     'DynamicData',

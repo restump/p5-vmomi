@@ -1,6 +1,9 @@
 package VMOMI::VirtualMachineProvisioningChecker;
 use parent 'VMOMI::ManagedObject';
 
+use strict;
+use warnings;
+
 our @class_ancestors = (
     'ManagedObject',
 );

@@ -1,6 +1,9 @@
 package VMOMI::VmRelocateFailedEvent;
 use parent 'VMOMI::VmRelocateSpecEvent';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'VmRelocateSpecEvent',
     'VmEvent',

@@ -1,6 +1,9 @@
 package VMOMI::HostStorageElementInfo;
 use parent 'VMOMI::HostHardwareElementInfo';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'HostHardwareElementInfo',
     'DynamicData',

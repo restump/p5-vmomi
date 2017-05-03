@@ -1,6 +1,9 @@
 package VMOMI::VrpResourceAllocationInfo;
 use parent 'VMOMI::ResourceAllocationInfo';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'ResourceAllocationInfo',
     'DynamicData',

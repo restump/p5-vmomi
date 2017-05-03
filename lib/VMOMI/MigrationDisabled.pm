@@ -1,6 +1,9 @@
 package VMOMI::MigrationDisabled;
 use parent 'VMOMI::MigrationFault';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'MigrationFault',
     'VimFault',

@@ -1,6 +1,9 @@
 package VMOMI::CustomFieldDefRemovedEvent;
 use parent 'VMOMI::CustomFieldDefEvent';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'CustomFieldDefEvent',
     'CustomFieldEvent',

@@ -1,6 +1,9 @@
 package VMOMI::VmFaultToleranceTooManyFtVcpusOnHost;
 use parent 'VMOMI::InsufficientResourcesFault';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'InsufficientResourcesFault',
     'VimFault',

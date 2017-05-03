@@ -1,6 +1,9 @@
 package VMOMI::VMwareDVSHealthCheckConfig;
 use parent 'VMOMI::DVSHealthCheckConfig';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'DVSHealthCheckConfig',
     'DynamicData',

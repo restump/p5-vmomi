@@ -1,6 +1,9 @@
 package VMOMI::ClusterProfileConfigInfo;
 use parent 'VMOMI::ProfileConfigInfo';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'ProfileConfigInfo',
     'DynamicData',

@@ -1,6 +1,9 @@
 package VMOMI::DvsIpPortRange;
 use parent 'VMOMI::DvsIpPort';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'DvsIpPort',
     'NegatableExpression',

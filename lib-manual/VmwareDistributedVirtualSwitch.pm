@@ -1,6 +1,9 @@
 package VMOMI::VmwareDistributedVirtualSwitch;
 use parent 'VMOMI::DistributedVirtualSwitch';
 
+use strict;
+use warnings;
+
 our @class_ancestors = (
     'DistributedVirtualSwitch',
     'ManagedEntity',

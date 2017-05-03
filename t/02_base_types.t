@@ -4,7 +4,6 @@ use strict;
 use warnings;
 
 use Test::More;
-use File::Find;
 use Class::Unload;
 
 use VMOMI;

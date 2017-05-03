@@ -1,6 +1,9 @@
 package VMOMI::VirtualBusLogicController;
 use parent 'VMOMI::VirtualSCSIController';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'VirtualSCSIController',
     'VirtualController',

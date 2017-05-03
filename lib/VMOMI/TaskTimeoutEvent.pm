@@ -1,6 +1,9 @@
 package VMOMI::TaskTimeoutEvent;
 use parent 'VMOMI::TaskEvent';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'TaskEvent',
     'Event',

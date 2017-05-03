@@ -1,6 +1,9 @@
 package VMOMI::OvfConnectedDeviceFloppy;
 use parent 'VMOMI::OvfConnectedDevice';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'OvfConnectedDevice',
     'OvfHardwareExport',

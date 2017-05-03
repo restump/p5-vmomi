@@ -1,6 +1,9 @@
 package VMOMI::InaccessibleDatastore;
 use parent 'VMOMI::InvalidDatastore';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'InvalidDatastore',
     'VimFault',

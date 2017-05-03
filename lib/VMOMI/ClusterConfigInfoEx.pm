@@ -1,6 +1,9 @@
 package VMOMI::ClusterConfigInfoEx;
 use parent 'VMOMI::ComputeResourceConfigInfo';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'ComputeResourceConfigInfo',
     'DynamicData',

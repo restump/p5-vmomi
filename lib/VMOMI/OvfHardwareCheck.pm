@@ -1,6 +1,9 @@
 package VMOMI::OvfHardwareCheck;
 use parent 'VMOMI::OvfImport';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'OvfImport',
     'OvfFault',

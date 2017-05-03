@@ -1,6 +1,9 @@
 package VMOMI::VmDasUpdateErrorEvent;
 use parent 'VMOMI::VmEvent';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'VmEvent',
     'Event',

@@ -1,6 +1,9 @@
 package VMOMI::MonthlyByDayTaskScheduler;
 use parent 'VMOMI::MonthlyTaskScheduler';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'MonthlyTaskScheduler',
     'DailyTaskScheduler',

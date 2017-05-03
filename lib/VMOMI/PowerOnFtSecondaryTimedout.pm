@@ -1,6 +1,9 @@
 package VMOMI::PowerOnFtSecondaryTimedout;
 use parent 'VMOMI::Timedout';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'Timedout',
     'VimFault',

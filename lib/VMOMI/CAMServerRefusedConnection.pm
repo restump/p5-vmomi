@@ -1,6 +1,9 @@
 package VMOMI::CAMServerRefusedConnection;
 use parent 'VMOMI::InvalidCAMServer';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'InvalidCAMServer',
     'ActiveDirectoryFault',

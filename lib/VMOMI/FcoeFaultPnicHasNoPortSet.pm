@@ -1,6 +1,9 @@
 package VMOMI::FcoeFaultPnicHasNoPortSet;
 use parent 'VMOMI::FcoeFault';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'FcoeFault',
     'VimFault',

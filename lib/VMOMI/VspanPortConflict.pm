@@ -1,6 +1,9 @@
 package VMOMI::VspanPortConflict;
 use parent 'VMOMI::DvsFault';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'DvsFault',
     'VimFault',

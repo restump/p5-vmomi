@@ -1,6 +1,9 @@
 package VMOMI::VirtualVmxnet2Option;
 use parent 'VMOMI::VirtualVmxnetOption';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'VirtualVmxnetOption',
     'VirtualEthernetCardOption',

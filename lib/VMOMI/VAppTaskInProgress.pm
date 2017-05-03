@@ -1,6 +1,9 @@
 package VMOMI::VAppTaskInProgress;
 use parent 'VMOMI::TaskInProgress';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'TaskInProgress',
     'VimFault',

@@ -1,6 +1,9 @@
 package VMOMI::HostNewNetworkConnectInfo;
 use parent 'VMOMI::HostConnectInfoNetworkInfo';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'HostConnectInfoNetworkInfo',
     'DynamicData',

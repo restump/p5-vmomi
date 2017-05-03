@@ -1,6 +1,9 @@
 package VMOMI::CustomizationSysprepText;
 use parent 'VMOMI::CustomizationIdentitySettings';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'CustomizationIdentitySettings',
     'DynamicData',

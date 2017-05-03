@@ -1,6 +1,9 @@
 package VMOMI::HostFibreChannelOverEthernetHba;
 use parent 'VMOMI::HostFibreChannelHba';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'HostFibreChannelHba',
     'HostHostBusAdapter',

@@ -1,6 +1,9 @@
 package VMOMI::AlarmInfo;
 use parent 'VMOMI::AlarmSpec';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'AlarmSpec',
     'DynamicData',

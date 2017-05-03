@@ -1,6 +1,9 @@
 package VMOMI::VirtualSoundBlaster16;
 use parent 'VMOMI::VirtualSoundCard';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'VirtualSoundCard',
     'VirtualDevice',

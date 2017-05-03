@@ -1,6 +1,9 @@
 package VMOMI::SecondaryVmAlreadyEnabled;
 use parent 'VMOMI::VmFaultToleranceIssue';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'VmFaultToleranceIssue',
     'VimFault',

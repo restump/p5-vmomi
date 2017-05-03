@@ -1,6 +1,9 @@
 package VMOMI::GuestAuthenticationChallenge;
 use parent 'VMOMI::GuestOperationsFault';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'GuestOperationsFault',
     'VimFault',

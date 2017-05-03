@@ -1,6 +1,9 @@
 package VMOMI::InvalidClientCertificate;
 use parent 'VMOMI::InvalidLogin';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'InvalidLogin',
     'VimFault',

@@ -1,6 +1,9 @@
 package VMOMI::VirtualApp;
 use parent 'VMOMI::ResourcePool';
 
+use strict;
+use warnings;
+
 our @class_ancestors = (
     'ResourcePool',
     'ManagedEntity',

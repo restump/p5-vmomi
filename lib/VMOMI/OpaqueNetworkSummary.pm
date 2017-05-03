@@ -1,6 +1,9 @@
 package VMOMI::OpaqueNetworkSummary;
 use parent 'VMOMI::NetworkSummary';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'NetworkSummary',
     'DynamicData',

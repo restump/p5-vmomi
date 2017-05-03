@@ -1,6 +1,9 @@
 package VMOMI::WinNetBIOSConfigInfo;
 use parent 'VMOMI::NetBIOSConfigInfo';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'NetBIOSConfigInfo',
     'DynamicData',

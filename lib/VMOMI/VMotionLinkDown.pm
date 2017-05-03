@@ -1,6 +1,9 @@
 package VMOMI::VMotionLinkDown;
 use parent 'VMOMI::VMotionInterfaceIssue';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'VMotionInterfaceIssue',
     'MigrationFault',

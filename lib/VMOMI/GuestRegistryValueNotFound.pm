@@ -1,6 +1,9 @@
 package VMOMI::GuestRegistryValueNotFound;
 use parent 'VMOMI::GuestRegistryValueFault';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'GuestRegistryValueFault',
     'GuestRegistryFault',

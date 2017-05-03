@@ -1,6 +1,9 @@
 package VMOMI::ClusterDasFailoverLevelAdvancedRuntimeInfo;
 use parent 'VMOMI::ClusterDasAdvancedRuntimeInfo';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'ClusterDasAdvancedRuntimeInfo',
     'DynamicData',

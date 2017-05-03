@@ -1,6 +1,9 @@
 package VMOMI::IscsiFaultVnicHasWrongUplink;
 use parent 'VMOMI::IscsiFault';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'IscsiFault',
     'VimFault',

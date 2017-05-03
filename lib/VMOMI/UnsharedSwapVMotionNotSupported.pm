@@ -1,6 +1,9 @@
 package VMOMI::UnsharedSwapVMotionNotSupported;
 use parent 'VMOMI::MigrationFeatureNotSupported';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'MigrationFeatureNotSupported',
     'MigrationFault',

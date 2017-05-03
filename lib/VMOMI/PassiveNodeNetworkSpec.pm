@@ -1,6 +1,9 @@
 package VMOMI::PassiveNodeNetworkSpec;
 use parent 'VMOMI::NodeNetworkSpec';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'NodeNetworkSpec',
     'DynamicData',

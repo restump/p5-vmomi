@@ -1,6 +1,9 @@
 package VMOMI::VirtualDeviceRemoteDeviceBackingInfo;
 use parent 'VMOMI::VirtualDeviceBackingInfo';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'VirtualDeviceBackingInfo',
     'DynamicData',

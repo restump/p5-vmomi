@@ -1,6 +1,9 @@
 package VMOMI::DVPortgroupReconfiguredEvent;
 use parent 'VMOMI::DVPortgroupEvent';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'DVPortgroupEvent',
     'Event',

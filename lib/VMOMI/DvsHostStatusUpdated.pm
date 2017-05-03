@@ -1,6 +1,9 @@
 package VMOMI::DvsHostStatusUpdated;
 use parent 'VMOMI::DvsEvent';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'DvsEvent',
     'Event',

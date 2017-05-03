@@ -1,6 +1,9 @@
 package VMOMI::HostTpmOptionEventDetails;
 use parent 'VMOMI::HostTpmEventDetails';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'HostTpmEventDetails',
     'DynamicData',

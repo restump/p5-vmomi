@@ -1,6 +1,9 @@
 package VMOMI::AnswerFileOptionsCreateSpec;
 use parent 'VMOMI::AnswerFileCreateSpec';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'AnswerFileCreateSpec',
     'DynamicData',

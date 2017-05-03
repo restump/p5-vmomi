@@ -1,6 +1,9 @@
 package VMOMI::InvalidDiskFormat;
 use parent 'VMOMI::InvalidFormat';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'InvalidFormat',
     'VmConfigFault',

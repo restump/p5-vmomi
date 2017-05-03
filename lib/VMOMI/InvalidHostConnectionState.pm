@@ -1,6 +1,9 @@
 package VMOMI::InvalidHostConnectionState;
 use parent 'VMOMI::InvalidHostState';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'InvalidHostState',
     'InvalidState',

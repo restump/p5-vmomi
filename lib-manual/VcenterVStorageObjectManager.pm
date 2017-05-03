@@ -1,6 +1,9 @@
 package VMOMI::VcenterVStorageObjectManager;
 use parent 'VMOMI::VStorageObjectManagerBase';
 
+use strict;
+use warnings;
+
 our @class_ancestors = (
 	'ManagedObject',
     'VStorageObjectManagerBase',

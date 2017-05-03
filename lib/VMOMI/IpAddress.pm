@@ -1,6 +1,9 @@
 package VMOMI::IpAddress;
 use parent 'VMOMI::NegatableExpression';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'NegatableExpression',
     'DynamicData',

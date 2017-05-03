@@ -1,6 +1,9 @@
 package VMOMI::InvalidPowerState;
 use parent 'VMOMI::InvalidState';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'InvalidState',
     'VimFault',

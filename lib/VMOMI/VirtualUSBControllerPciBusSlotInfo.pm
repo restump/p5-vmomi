@@ -1,6 +1,9 @@
 package VMOMI::VirtualUSBControllerPciBusSlotInfo;
 use parent 'VMOMI::VirtualDevicePciBusSlotInfo';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'VirtualDevicePciBusSlotInfo',
     'VirtualDeviceBusSlotInfo',

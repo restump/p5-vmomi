@@ -1,6 +1,9 @@
 package VMOMI::CompositePolicyOption;
 use parent 'VMOMI::PolicyOption';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'PolicyOption',
     'DynamicData',

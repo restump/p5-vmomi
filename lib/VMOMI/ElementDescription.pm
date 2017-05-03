@@ -1,6 +1,9 @@
 package VMOMI::ElementDescription;
 use parent 'VMOMI::Description';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'Description',
     'DynamicData',

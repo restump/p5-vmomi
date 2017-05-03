@@ -1,6 +1,9 @@
 package VMOMI::DuplicateDisks;
 use parent 'VMOMI::VsanDiskFault';
 
+use strict;
+use warnings;
+
 our @class_ancestors = ( 
     'VsanDiskFault',
     'VsanFault',
