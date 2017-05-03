@@ -29,6 +29,7 @@ VMOMI - VMware vSphere API Perl Bindings
 
 # INSTALLATION
 
+    apk add openssl-dev libxml2-dev
     cpanm install VMOMI
 
 # DESCRIPTION
@@ -36,9 +37,9 @@ VMOMI - VMware vSphere API Perl Bindings
 VMOMI provides an alternative to the VMware Perl SDK for vSphere and was created to address
 some limitations with the offical VMware Perl SDK.
 
-- **Preserve main:: namespace by avoid globals and the import of all API classes**
-- **Reduce memory footprint through [Class::Autouse](https://metacpan.org/pod/Class::Autouse)**
-- **Enable installation through CPAN**
+- Preserve main:: namespace by avoid globals and the import of all API classes
+- Reduce memory footprint through [Class::Autouse](https://metacpan.org/pod/Class::Autouse)
+- Enable installation through CPAN
 
 ## Finding ManagedEntities
 
@@ -70,7 +71,7 @@ HostSystem, Folder, Datacenter, ClusterComputeResource, etc.
 VMOMI provides similar, manually generated classes for these managed objects.  During deserialization
 of the vSphere Web Service API, ManagedObjectReferences are automatically instantiated to corresponding
 "view classes". The underlying ManagedObjectReference can be accessed through the **moref** property.
-ManagedObjectReferences have two properties **type** and **value**:
+ManagedObjectReference consists of two properties **type** and **value**:
 
     $vm = VMOMI::find_entities($content, 'VirtualMachine', { name => qr/TestVM2/ })->shift;
     $moref = $vm->moref;
@@ -89,7 +90,7 @@ with a current, authenticated connection stub:
 
 ## Performance Considerations
 
-Properties are only retrieved from the vSphere Web Services API on access through AUTOLOAD, and as such
+Properties are only retrieved from the vSphere Web Services API on access through AUTOLOAD, and as such,
 can impact performance in iterations. The following logic will invoke three API calls to vSphere for each 
 virtual machine:
 

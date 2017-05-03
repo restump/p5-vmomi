@@ -4,7 +4,7 @@ use 5.006;
 use strict;
 use warnings;
 
-our $VERSION = 0.01;
+our $VERSION = 0.02;
 
 use Class::Autouse;
 use Exception::Class(
@@ -133,7 +133,8 @@ VMOMI - VMware vSphere API Perl Bindings
     $content->sessionManager->Logout();
 
 =head1 INSTALLATION
-
+    
+    apk add openssl-dev libxml2-dev
     cpanm install VMOMI
 
 =head1 DESCRIPTION
@@ -143,11 +144,11 @@ some limitations with the offical VMware Perl SDK.
 
 =over 8
 
-=item * B<Preserve main:: namespace by avoid globals and the import of all API classes>
+=item * Preserve main:: namespace by avoid globals and the import of all API classes
 
-=item * B<Reduce memory footprint through L<Class::Autouse|https://metacpan.org/pod/Class::Autouse>>
+=item * Reduce memory footprint through L<Class::Autouse|https://metacpan.org/pod/Class::Autouse>
 
-=item * B<Enable installation through CPAN>
+=item * Enable installation through CPAN
 
 =back
 
@@ -181,7 +182,7 @@ HostSystem, Folder, Datacenter, ClusterComputeResource, etc.
 VMOMI provides similar, manually generated classes for these managed objects.  During deserialization
 of the vSphere Web Service API, ManagedObjectReferences are automatically instantiated to corresponding
 "view classes". The underlying ManagedObjectReference can be accessed through the B<moref> property.
-ManagedObjectReferences have two properties B<type> and B<value>:
+ManagedObjectReference consists of two properties B<type> and B<value>:
 
     $vm = VMOMI::find_entities($content, 'VirtualMachine', { name => qr/TestVM2/ })->shift;
     $moref = $vm->moref;
@@ -200,7 +201,7 @@ with a current, authenticated connection stub:
 
 =head2 Performance Considerations
 
-Properties are only retrieved from the vSphere Web Services API on access through AUTOLOAD, and as such
+Properties are only retrieved from the vSphere Web Services API on access through AUTOLOAD, and as such,
 can impact performance in iterations. The following logic will invoke three API calls to vSphere for each 
 virtual machine:
 
